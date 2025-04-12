@@ -62,4 +62,9 @@ Feel free to contact me at:
 
 ---
 
+### 💖 A Special Note
+<p align="center" style="font-size: 18px; color: #FF4081;">
+  "Coding is like love; it should be entered into with abandon or not at all." 💘
+</p>
+
 ### 🌈 Thank you for visiting my profile! Let's connect and grow together! 😊✨
