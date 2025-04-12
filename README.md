@@ -1,15 +1,16 @@
 
-<h3 align="center">🌟 A Passionate Frontend Developer from India 💻</h3>
+
+<h3 align="center" style="color: #FF5722;">✨ A Passionate Frontend Developer from India 💻</h3>
 
 <p align="center">
-  <img align="right" width="400" src="https://user" alt="coding" />
+  <img align="right" width="300" src="https://user" alt="coding" />
   <img src="https://komarev.com/ghpvc/?username=stubbornlove&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
 
 ---
 
 ### 🌱 Current Learning
-I’m currently diving into **Framework courses, etc.** to enhance my skills! 🚀
+I’m currently diving into **Framework courses** and expanding my skills! 🚀
 
 ### 📫 How to Reach Me
 Feel free to contact me at:  
