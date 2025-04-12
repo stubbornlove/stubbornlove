@@ -1,4 +1,4 @@
-
+<h1 align="center">👋 Hi, I'm <strong>𝐒𝗍𝗈𝗅𝖾𝗇 𝐇𝖺𝗉𝗉𝗂𝗇𝖾𝗌𝗌</strong> 💚</h1>
 <h3 align="center">A Passionate Frontend Developer from India 💻</h3>
 
 <p align="center">
@@ -43,17 +43,17 @@ Feel free to contact me at:
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=stubbornlove&show_icons=true&locale=en" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=stubbornlove&show_icons=true&locale=en&theme=radical" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=stubbornlove" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=stubbornlove&theme=radical" alt="Streak Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=stubbornlove&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=stubbornlove&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
 ---
 
-### Thank you for visiting my profile! 😊
+### Thank you for visiting my profile! 😊✨
