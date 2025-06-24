@@ -1,4 +1,4 @@
-<h1 align="center">💖 Yogesh Mahawar</h1>
+<h1 align="center">💖 STUBBORN </h1>
 <h3 align="center">Frontend Dev by Day — Romantic Dreamer by Night 💻🌙</h3>
 
 <p align="center">
