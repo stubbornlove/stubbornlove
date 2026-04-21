@@ -30,7 +30,7 @@ Let's talk code, design — or just share life stories 💭
   <a href="https://twitter.com/@yogeshm22513885" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-%20❤️%20@YogeshM-blue?style=for-the-badge&logo=twitter&logoColor=white" />
   </a>
-  <a href="https://instagram.com/Know_Your_worth_Darling" target="_blank">
+  <a href="https://instagram.com/Knowyourworth.darling" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-%20💫%20@KnowYourWorth-pink?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </p>
