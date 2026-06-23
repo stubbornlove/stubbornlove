@@ -17,7 +17,7 @@
 # 🌌 3D Hero Banner
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/banner.png" alt="STUBBORN 3D Banner" width="100%" />
+  <img src="https://github.com/stubbornlove/stubbornlove/blob/main/assets/banner.png" alt="STUBBORN 3D Banner" width="100%" />
 </p>
 
 <p align="center">
