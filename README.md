@@ -1,4 +1,3 @@
-
 <h1 align="center">✨ STUBBORN</h1>
 <h3 align="center">Frontend Developer • UI Crafter • Creative Coder</h3>
 
@@ -116,4 +115,3 @@
 <p align="center">
   Thanks for visiting my profile 🚀
 </p>
-```
