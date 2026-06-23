@@ -1,10 +1,9 @@
-<h1 align="center">STUBBORN</h1>
-<h3 align="center">Frontend Developer • UI Crafter • Creative Coder</h3>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&pause=1000&color=C084FC&center=true&vCenter=true&width=900&lines=STUBBORN;Frontend+Developer+%7C+UI+Crafter+%7C+Creative+Coder" alt="Typing SVG" />
+</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=C084FC&center=true&vCenter=true&width=1000&lines=Building+modern+interfaces+with+clean+code;Frontend+Developer+focused+on+UI%2FUX+and+interactive+experiences;Turning+ideas+into+polished+digital+products;Always+learning+%E2%80%A2+Always+building+%E2%80%A2+Always+improving" alt="Typing SVG" />
-  </a>
+  <b>Building modern interfaces with clean code, polished UI, and creative vision.</b>
 </p>
 
 <p align="center">
@@ -15,14 +14,16 @@
 
 ---
 
-# 🌌 Hero
+# 🌌 3D Hero Banner
 
 <p align="center">
-  <img src="YOUR_BANNER_IMAGE_LINK_HERE" alt="STUBBORN Banner" width="100%" />
+  <img src="YOUR_3D_BANNER_LINK_HERE" alt="STUBBORN 3D Banner" width="100%" />
 </p>
 
 <p align="center">
-  <b>Frontend developer passionate about crafting responsive, elegant, and user-focused interfaces with clean code and strong visual thinking.</b>
+  <img src="https://img.shields.io/badge/Frontend%20Developer-0f172a?style=for-the-badge&logo=googlechrome&logoColor=38bdf8" />
+  <img src="https://img.shields.io/badge/UI%20Crafter-0f172a?style=for-the-badge&logo=figma&logoColor=f472b6" />
+  <img src="https://img.shields.io/badge/Creative%20Coder-0f172a?style=for-the-badge&logo=visualstudiocode&logoColor=8b5cf6" />
 </p>
 
 ---
@@ -34,20 +35,20 @@
 <td width="58%" valign="top">
 
 ## 👨‍💻 Who I Am
-- 🎯 Frontend developer focused on **modern UI, responsive design, and smooth user experience**
+- 🎯 Frontend developer focused on **modern UI, responsiveness, and smooth user experience**
 - ⚛️ I enjoy building with **React, JavaScript, HTML, CSS, and practical frontend architecture**
-- 🎨 I care about **visual hierarchy, polished layouts, interaction details, and clean interfaces**
+- 🎨 I care about **clean layouts, interaction details, visual hierarchy, and polished interfaces**
 - ☕ My best work usually happens with **code, chai, and late-night build sessions**
-- 🚀 I’m always improving my **frontend skills, design sense, and project quality**
-- 🧠 I like creating experiences that feel **fast, minimal, modern, and memorable**
+- 🚀 Constantly improving my **frontend skills, design sense, and project quality**
+- 🧠 I like building experiences that feel **fast, elegant, and memorable**
 
-## 🛠 What I Like Building
+## 💡 What I Love Building
 - Responsive landing pages  
-- Frontend dashboards  
 - Portfolio websites  
-- UI components and reusable sections  
-- Clean modern web interfaces  
-- Creative personal projects
+- Frontend dashboards  
+- Reusable UI components  
+- Clean modern interfaces  
+- Creative personal projects  
 
 </td>
 <td width="42%" align="center">
@@ -58,7 +59,7 @@
 
 ---
 
-# 🧰 Tech Stack & Tools
+# 🧰 3D Tech Stack
 
 <table align="center">
 <tr>
@@ -114,14 +115,6 @@
 
 <p align="center">
   <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stubbornlove&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=e5e7eb" />
-</p>
-
----
-
-# 🐍 Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
