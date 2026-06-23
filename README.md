@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=C084FC&center=true&vCenter=true&width=900&lines=Building+modern+interfaces+with+clean+code;Frontend+Developer+focused+on+UI%2FUX+and+interactive+experiences;Turning+ideas+into+polished+digital+products" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=C084FC&center=true&vCenter=true&width=1000&lines=Building+modern+interfaces+with+clean+code;Frontend+Developer+focused+on+UI%2FUX+and+interactive+experiences;Turning+ideas+into+polished+digital+products;Always+learning+%E2%80%A2+Always+building+%E2%80%A2+Always+improving" alt="Typing SVG" />
   </a>
 </p>
 
@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <b>Frontend developer passionate about building responsive, elegant, and user-focused interfaces with clean code and strong visual thinking.</b>
+  <b>Frontend developer passionate about crafting responsive, elegant, and user-focused interfaces with clean code and strong visual thinking.</b>
 </p>
 
 ---
@@ -31,17 +31,17 @@
 
 <table align="center">
 <tr>
-<td width="60%" valign="top">
+<td width="58%" valign="top">
 
-### 👨‍💻 Who I Am
+## 👨‍💻 Who I Am
 - 🎯 Frontend developer focused on **modern UI, responsive design, and smooth user experience**
-- ⚛️ I enjoy building with **React, JavaScript, HTML, and CSS**
-- 🎨 I care about **visual hierarchy, clean layouts, interaction details, and polished interfaces**
+- ⚛️ I enjoy building with **React, JavaScript, HTML, CSS, and practical frontend architecture**
+- 🎨 I care about **visual hierarchy, polished layouts, interaction details, and clean interfaces**
 - ☕ My best work usually happens with **code, chai, and late-night build sessions**
 - 🚀 I’m always improving my **frontend skills, design sense, and project quality**
 - 🧠 I like creating experiences that feel **fast, minimal, modern, and memorable**
 
-### 🛠 What I Like Building
+## 🛠 What I Like Building
 - Responsive landing pages  
 - Frontend dashboards  
 - Portfolio websites  
@@ -50,25 +50,40 @@
 - Creative personal projects
 
 </td>
-<td width="40%" align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="coding" />
+<td width="42%" align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="coding gif" />
 </td>
 </tr>
 </table>
 
 ---
 
-# 🧰 Tech Stack
+# 🧰 Tech Stack & Tools
 
+<table align="center">
+<tr>
+<td align="center" width="50%">
+
+## ⚡ Core Tech
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,react,c&theme=dark" />
 </p>
 
+</td>
+<td align="center" width="50%">
+
+## 🛠 Tools & Platforms
 <p align="center">
   <img src="https://img.shields.io/badge/Appwrite-111827?style=for-the-badge&logo=appwrite&logoColor=F02E65" />
   <img src="https://img.shields.io/badge/Heroku-111827?style=for-the-badge&logo=heroku&logoColor=7952B3" />
   <img src="https://img.shields.io/badge/Adobe%20Illustrator-111827?style=for-the-badge&logo=adobeillustrator&logoColor=FF9A00" />
+  <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032" />
+  <img src="https://img.shields.io/badge/VS%20Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" />
 </p>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -103,11 +118,19 @@
 
 ---
 
+# 🐍 Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
+
+---
+
 # 🚀 Current Focus
 
 <table align="center">
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ## 🔭 Currently Building
 - Better frontend projects with cleaner UI
@@ -116,13 +139,22 @@
 - Modern layouts with strong responsiveness
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ## 🌱 Currently Learning
 - Advanced React patterns
-- Better UI/UX thinking
 - Performance optimization
+- Better UI/UX thinking
 - Cleaner project architecture
+
+</td>
+<td width="33%" valign="top">
+
+## 🎯 Goals for 2026
+- Build premium frontend projects
+- Improve UI/UX quality
+- Strengthen React skills
+- Create a standout developer portfolio
 
 </td>
 </tr>
@@ -130,13 +162,10 @@
 
 ---
 
-# 🎯 2026 Goals
+# 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Build%20better%20frontend%20projects-111827?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Improve%20UI%2FUX%20quality-111827?style=for-the-badge&logo=figma&logoColor=f472b6" />
-  <img src="https://img.shields.io/badge/Strengthen%20React%20skills-111827?style=for-the-badge&logo=react&logoColor=61dafb" />
-  <img src="https://img.shields.io/badge/Create%20premium%20portfolio%20projects-111827?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://github-profile-trophy.vercel.app/?username=stubbornlove&theme=algolia&no-frame=true&no-bg=true&margin-w=12&row=1" />
 </p>
 
 ---
@@ -157,6 +186,14 @@
 
 <p align="center">
   Open to collaboration, creative frontend builds, and interesting project ideas.
+</p>
+
+---
+
+# 🎵 Current Vibe
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Now%20Coding%20To-lofi%20hip%20hop%20%F0%9F%8E%A7-111827?style=for-the-badge&logo=spotify&logoColor=1DB954" />
 </p>
 
 ---
