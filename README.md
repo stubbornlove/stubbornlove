@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&pause=1000&color=C084FC&center=true&vCenter=true&width=900&lines=STUBBORN;Frontend+Developer+%7C+UI+Crafter+%7C+Creative+Coder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&pause=1000&color=C084FC&center=true&vCenter=true&width=950&lines=STUBBORN;Frontend+Developer+%7C+UI+Crafter+%7C+Creative+Coder;Designing+clean+interfaces+with+a+little+charm" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <b>Building modern interfaces with clean code, polished UI, and creative vision.</b>
+  <b>Building modern interfaces with clean code, polished UI, and a creative touch.</b>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 # 🌌 3D Hero Banner
 
 <p align="center">
-  <img src="YOUR_3D_BANNER_LINK_HERE" alt="STUBBORN 3D Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/banner.png" alt="STUBBORN 3D Banner" width="100%" />
 </p>
 
 <p align="center">
@@ -41,6 +41,7 @@
 - ☕ My best work usually happens with **code, chai, and late-night build sessions**
 - 🚀 Constantly improving my **frontend skills, design sense, and project quality**
 - 🧠 I like building experiences that feel **fast, elegant, and memorable**
+- ✨ I believe a good interface should feel **smooth, beautiful, and effortless**
 
 ## 💡 What I Love Building
 - Responsive landing pages  
@@ -59,7 +60,7 @@
 
 ---
 
-# 🧰 3D Tech Stack
+# 🧰 Tech Stack
 
 <table align="center">
 <tr>
@@ -115,6 +116,14 @@
 
 <p align="center">
   <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stubbornlove&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=e5e7eb" />
+</p>
+
+---
+
+# 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
 
 ---
@@ -198,12 +207,12 @@
 </p>
 
 <p align="center">
-  I enjoy creating interfaces that are clean, modern, and genuinely pleasant to use.
+  I like building things that look sharp, feel smooth, and leave a good impression.
 </p>
 
 ---
 
-# ⚡ Fun Side
+# ⚡ A Little More Me
 
 <p align="center">
   ☕ Chai + Code + Night Mode <br>
@@ -215,5 +224,5 @@
 
 <p align="center">
   <b>Thanks for visiting my profile 🚀</b><br>
-  Let’s build something meaningful.
+  Let’s build something cool.
 </p>
