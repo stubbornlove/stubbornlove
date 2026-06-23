@@ -1,111 +1,119 @@
-<div align="center">
+```md
+<h1 align="center">✨ STUBBORN</h1>
+<h3 align="center">Frontend Developer • UI Crafter • Creative Coder</h3>
 
-<!-- 3D / Premium Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,8A2BE2,FF1493,00BFFF&height=250&section=header&text=STUBBORN&fontSize=80&fontAlignY=40&animation=twinkling&fontColor=ffffff&desc=Frontend%20Developer%20%7C%20UI%20Crafter%20%7C%20Creative%20Coder&descAlignY=65&descSize=20" width="100%" alt="STUBBORN Header" />
+<p align="center">
+  Building modern interfaces with clean code, strong visuals, and creative thinking.
+</p>
 
-<!-- Typing Animation Subtitle -->
-<a href="https://github.com/stubbornlove">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=20&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=Building+modern+interfaces+with+clean+code;Turning+ideas+into+sleek,+interactive+experiences;Crafting+immersive+digital+architectures" alt="Typing SVG" />
-</a>
-
-<br><br>
-
-<!-- Premium Profile Views Badge -->
-<img src="https://komarev.com/ghpvc/?username=stubbornlove&label=PROFILE+VIEWS&color=00E5FF&label_color=0D1117&style=for-the-badge" alt="Profile Views" />
-
-</div>
-
-<br>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=stubbornlove&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/stubbornlove?style=for-the-badge&color=0ea5e9&labelColor=111827" alt="followers" />
+  <img src="https://img.shields.io/github/stars/stubbornlove?style=for-the-badge&color=f59e0b&labelColor=111827" alt="stars" />
+</p>
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star-Struck.png" alt="Star" width="35" />
-  <h2>✦ EXECUTIVE SUMMARY ✦</h2>
-  <p><em>Bridging the gap between robust engineering and intuitive, cyber-neon design.</em></p>
-</div>
+## 🌌 Hero Section
 
-I am a **Frontend Developer** who approaches software engineering with the precision of an architect and the vision of a designer. I specialize in building sleek, interactive, and highly optimized web applications. For me, every line of code is an opportunity to craft a digital experience that is not only highly functional but visually immersive.
+<p align="center">
+  <img src="YOUR_3D_BANNER_IMAGE_LINK_HERE" alt="STUBBORN 3D Banner" width="100%" />
+</p>
 
-*   💡 **Focus:** Designing dynamic, deeply engaging UI/UX architectures with a premium aesthetic.
-*   🚀 **Mission:** Turning complex concepts into elegant, scalable, and interactive frontend solutions.
-*   🌙 **Fuel:** Clean code, late-night building sessions, heavy lo-fi beats, and chai.
-
-<br>
+<p align="center">
+  <b>Frontend Developer focused on modern UI, smooth user experiences, and polished web interfaces.</b>
+</p>
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="35" />
-  <h2>✦ TECH ARSENAL ✦</h2>
-  <p><em>The tools I use to bring high-fidelity designs to life.</em></p>
-  <br>
+## 🚀 About Me
 
-<!-- 3D Glassmorphism / Neon Icons using Skillicons -->
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,appwrite,heroku,ai,c&theme=dark&perline=8" alt="My Tech Stack" />
-</a>
+<img align="right" alt="coding" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
-</div>
+- 🎯 I build **responsive, interactive, and user-focused web experiences**
+- 💡 I enjoy turning ideas into **clean interfaces with strong visual appeal**
+- ⚛️ Working with **React, JavaScript, HTML, and CSS** to create modern frontend projects
+- 🎨 I care deeply about **UI/UX, layout, motion, and the small details that improve usability**
+- ☕ My workflow usually includes **code, chai, and late-night build sessions**
+- 📚 Constantly learning, improving, and refining both **design sense and frontend architecture**
+- 🛠️ I like creating projects that feel **fast, elegant, and practical**
 
-<br><br>
-
----
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="35" />
-  <h2>✦ PERFORMANCE DASHBOARD ✦</h2>
-  <p><em>Metrics, consistency, and open-source contributions.</em></p>
-  <br>
-
-<table align="center" style="border: none; background-color: transparent;">
-  <tr>
-    <td align="center" width="50%">
-      <!-- GitHub Stats (Custom Dark Neon Theme) -->
-      <img src="https://github-readme-stats.vercel.app/api?username=stubbornlove&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF1493&icon_color=00E5FF&text_color=A9B2C3&border_radius=15" alt="GitHub Stats" width="100%" />
-    </td>
-    <td align="center" width="50%">
-      <!-- Top Languages -->
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stubbornlove&layout=compact&hide_border=true&bg_color=0D1117&title_color=8A2BE2&text_color=A9B2C3&border_radius=15" alt="Top Languages" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <br>
-      <!-- GitHub Streak -->
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=stubbornlove&hide_border=true&background=0D1117&ring=00E5FF&fire=FF1493&currStreakNum=ffffff&currStreakLabel=A9B2C3&sideNums=ffffff&sideLabels=A9B2C3&dates=A9B2C3&border_radius=15" alt="GitHub Streak" width="80%" />
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<br>
+<br clear="right"/>
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="35" />
-  <h2>✦ INITIATE CONNECTION ✦</h2>
-  <p><em>Open for dynamic collaborations, professional opportunities, or tech discussions.</em></p>
-  <br>
+## 🛠️ Tech Stack
 
-<a href="mailto:yogeshmahawar234@gmail.com">
-  <img src="https://img.shields.io/badge/Email-yogeshmahawar234%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=1A1A24" alt="Email" />
-</a>
-&nbsp;&nbsp;
-<a href="https://twitter.com/@yogeshm22513885" target="_blank">
-  <img src="https://img.shields.io/badge/X%20(Twitter)-@YogeshM-0D1117?style=for-the-badge&logo=x&logoColor=white&labelColor=1A1A24" alt="Twitter" />
-</a>
-&nbsp;&nbsp;
-<a href="https://instagram.com/Knowyourworth.darling" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-@KnowYourWorth-0D1117?style=for-the-badge&logo=instagram&logoColor=E1306C&labelColor=1A1A24" alt="Instagram" />
-</a>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,c&theme=dark" />
+</p>
 
-<br><br><br>
+<p align="center">
+  <img src="https://img.shields.io/badge/Appwrite-111827?style=for-the-badge&logo=appwrite&logoColor=f02e65" />
+  <img src="https://img.shields.io/badge/Heroku-111827?style=for-the-badge&logo=heroku&logoColor=7952b3" />
+  <img src="https://img.shields.io/badge/Adobe%20Illustrator-111827?style=for-the-badge&logo=adobeillustrator&logoColor=ff9a00" />
+</p>
 
-> *"Architecture begins where engineering ends. Let's build the future of the web."* 🌌
+---
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="80%" alt="neon line separator">
+## 📊 GitHub Dashboard
 
-</div>
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=stubbornlove&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bf91f3&icon_color=58a6ff&text_color=c9d1d9" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=stubbornlove&theme=tokyonight&hide_border=true&background=0d1117&ring=bf91f3&fire=58a6ff&currStreakLabel=c9d1d9" />
+</p>
+
+<p align="center">
+  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stubbornlove&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bf91f3&text_color=c9d1d9" />
+</p>
+
+---
+
+## 💻 What I Focus On
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Responsive%20UI-0f172a?style=for-the-badge&logo=googlechrome&logoColor=38bdf8" />
+  <img src="https://img.shields.io/badge/Frontend%20Development-0f172a?style=for-the-badge&logo=frontendmentor&logoColor=a855f7" />
+  <img src="https://img.shields.io/badge/React%20Interfaces-0f172a?style=for-the-badge&logo=react&logoColor=61dafb" />
+  <img src="https://img.shields.io/badge/UI%2FUX%20Thinking-0f172a?style=for-the-badge&logo=figma&logoColor=f472b6" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Clean%20Code-111827?style=flat-square&logo=codefactor&logoColor=22c55e" />
+  <img src="https://img.shields.io/badge/Interactive%20Design-111827?style=flat-square&logo=framer&logoColor=a855f7" />
+  <img src="https://img.shields.io/badge/Performance%20Focused-111827?style=flat-square&logo=lighthouse&logoColor=facc15" />
+  <img src="https://img.shields.io/badge/Always%20Learning-111827?style=flat-square&logo=bookstack&logoColor=60a5fa" />
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="mailto:yogeshmahawar234@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=ea4335" />
+  </a>
+  <a href="https://twitter.com/yogeshm22513885">
+    <img src="https://img.shields.io/badge/Twitter%20%2F%20X-0f172a?style=for-the-badge&logo=x&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/Knowyourworth.darling">
+    <img src="https://img.shields.io/badge/Instagram-0f172a?style=for-the-badge&logo=instagram&logoColor=e1306c" />
+  </a>
+</p>
+
+<p align="center">
+  💬 Open to frontend collaborations, creative builds, and interesting project ideas.
+</p>
+
+---
+
+## ✨ Developer Note
+
+<p align="center">
+  <i>“Every interface tells a story — I try to make mine clean, meaningful, and memorable.”</i>
+</p>
+
+<p align="center">
+  Thanks for visiting my profile 🚀
+</p>
+```
