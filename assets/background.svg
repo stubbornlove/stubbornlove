@@ -1,0 +1,21 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ambientGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050310"/>
+      <stop offset="50%" stop-color="#0d0522"/>
+      <stop offset="100%" stop-color="#050310"/>
+    </linearGradient>
+    <filter id="noiseF">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.66  0 0 0 0 0.45  0 0 0 0 0.95  0 0 0 0.06 0"/>
+    </filter>
+    <style>
+      .pulseBar { animation: pulseBar 5s ease-in-out infinite; }
+      @keyframes pulseBar { 0%,100%{ opacity:0.25;} 50%{ opacity:0.6;} }
+    </style>
+  </defs>
+  <rect width="1200" height="120" fill="url(#ambientGrad)"/>
+  <rect width="1200" height="120" filter="url(#noiseF)"/>
+  <rect class="pulseBar" x="0" y="58" width="1200" height="1" fill="#a855f7"/>
+  <rect class="pulseBar" x="0" y="60" width="1200" height="1" fill="#38bdf8" style="animation-delay:1.5s"/>
+</svg>

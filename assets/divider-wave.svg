@@ -1,0 +1,20 @@
+<svg width="1200" height="90" viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f0524"/>
+      <stop offset="50%" stop-color="#3b1a6b"/>
+      <stop offset="100%" stop-color="#0f0524"/>
+    </linearGradient>
+    <linearGradient id="waveStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .flow { animation: flow 6s ease-in-out infinite; }
+      @keyframes flow { 0%,100%{ transform:translateY(0);} 50%{ transform:translateY(6px);} }
+    </style>
+  </defs>
+  <path class="flow" d="M0,45 C150,10 300,80 450,45 C600,10 750,80 900,45 C1050,10 1150,60 1200,45 L1200,90 L0,90 Z" fill="url(#waveGrad1)"/>
+  <path class="flow" d="M0,45 C150,10 300,80 450,45 C600,10 750,80 900,45 C1050,10 1150,60 1200,45" fill="none" stroke="url(#waveStroke)" stroke-width="2"/>
+</svg>

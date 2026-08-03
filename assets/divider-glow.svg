@@ -1,0 +1,21 @@
+<svg width="1200" height="40" viewBox="0 0 1200 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="lineGlow" x="-20%" y="-400%" width="140%" height="900%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .sweep { animation: sweep 3.4s ease-in-out infinite; }
+      @keyframes sweep { 0%,100%{ opacity:0.5;} 50%{ opacity:1;} }
+    </style>
+  </defs>
+  <rect x="0" y="19" width="1200" height="2" fill="url(#glowLine)" filter="url(#lineGlow)" class="sweep"/>
+  <circle cx="600" cy="20" r="4" fill="#e879f9" filter="url(#lineGlow)">
+    <animate attributeName="cx" values="150;1050;150" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>

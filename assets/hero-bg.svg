@@ -1,0 +1,30 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradMain" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0616"/>
+      <stop offset="50%" stop-color="#160a33"/>
+      <stop offset="100%" stop-color="#0a0616"/>
+    </linearGradient>
+    <radialGradient id="meshA" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="meshB" cx="80%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dotGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#a78bfa" fill-opacity="0.20"/>
+    </pattern>
+    <style>
+      .drift { animation: drift 9s ease-in-out infinite; }
+      @keyframes drift { 0%,100%{ transform:translateX(0);} 50%{ transform:translateX(24px);} }
+    </style>
+  </defs>
+  <rect width="1200" height="180" fill="url(#bgGradMain)"/>
+  <rect width="1200" height="180" fill="url(#dotGrid)"/>
+  <ellipse class="drift" cx="240" cy="90" rx="340" ry="140" fill="url(#meshA)"/>
+  <ellipse class="drift" cx="960" cy="90" rx="340" ry="140" fill="url(#meshB)" style="animation-delay:2s"/>
+  <line x1="0" y1="1" x2="1200" y2="1" stroke="#8b5cf6" stroke-opacity="0.25"/>
+  <line x1="0" y1="179" x2="1200" y2="179" stroke="#38bdf8" stroke-opacity="0.25"/>
+</svg>

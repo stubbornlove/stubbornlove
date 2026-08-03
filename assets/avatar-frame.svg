@@ -1,0 +1,48 @@
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="avRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e879f9"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="avCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1c0b3d"/>
+      <stop offset="100%" stop-color="#05030d"/>
+    </radialGradient>
+    <filter id="avGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .spin { transform-origin: 130px 130px; animation: spin 16s linear infinite; }
+      .spinRev { transform-origin: 130px 130px; animation: spinRev 22s linear infinite; }
+      .breathe { animation: breathe 3.2s ease-in-out infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes spinRev { to { transform: rotate(-360deg); } }
+      @keyframes breathe { 0%,100%{ opacity:0.7;} 50%{ opacity:1;} }
+    </style>
+  </defs>
+
+  <circle cx="130" cy="130" r="118" fill="url(#avCore)"/>
+
+  <g class="spin" fill="none" stroke="url(#avRing)" stroke-width="2.5" filter="url(#avGlow)">
+    <circle cx="130" cy="130" r="112" stroke-dasharray="30 12"/>
+  </g>
+
+  <g class="spinRev" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.6">
+    <circle cx="130" cy="130" r="96" stroke-dasharray="2 6"/>
+  </g>
+
+  <circle class="breathe" cx="130" cy="130" r="80" fill="none" stroke="#e879f9" stroke-width="1.5" opacity="0.8"/>
+
+  <circle cx="130" cy="130" r="70" fill="#0a0414" stroke="url(#avRing)" stroke-width="2"/>
+
+  <text x="130" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="64" fill="url(#avRing)" filter="url(#avGlow)">S</text>
+
+  <g fill="#c4b5fd">
+    <circle cx="130" cy="6" r="3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="254" r="3"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="6" cy="130" r="3"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="254" cy="130" r="3"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

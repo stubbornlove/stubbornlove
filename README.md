@@ -1,315 +1,257 @@
 <div align="center">
 
-<!-- ============================================ -->
-<!-- ANIMATED TOP BORDER -->
-<!-- ============================================ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0524,25:1A0B3D,50:2D1B69,75:1A0B3D,100:0F0524&height=280&section=header&text=STUBBORN&fontSize=90&fontColor=E879F9&fontAlignY=38&desc=Frontend%20Developer%20%E2%80%A2%20UI%20Crafter%20%E2%80%A2%20Creative%20Soul&descAlignY=58&descColor=8B5CF6&animation=fadeIn" width="100%"/>
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/hero.svg" width="100%" alt="STUBBORN — Frontend Engineer" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=A78BFA&center=true&vCenter=true&width=760&height=50&lines=booting+stubbornlove.dev...;loading+design+system...;compiling+ui%2Freact...;systems+nominal.+welcome." alt="Typing SVG" />
 
 <br/>
 
-<!-- TYPING ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=800&height=60&lines=%3E+Designing+interfaces+that+feel+alive_;%3E+React+%2B+JavaScript+%2B+Pixel-perfect+UI_;%3E+Turning+ideas+into+premium+experiences_;%3E+Welcome+to+my+digital+space_" alt="Typing SVG" />
+<img src="https://img.shields.io/badge/%E2%9C%A6%20STATUS-ONLINE-050310?style=for-the-badge&labelColor=050310&color=39FF88" height="30"/>
+<img src="https://img.shields.io/badge/%E2%97%8E%20BASED%20IN-INDIA-050310?style=for-the-badge&labelColor=050310&color=60A5FA" height="30"/>
+<img src="https://img.shields.io/badge/%E2%9C%A6%20ROLE-FRONTEND%20ENGINEER-050310?style=for-the-badge&labelColor=050310&color=E879F9" height="30"/>
+<img src="https://img.shields.io/badge/%E2%9C%A6%20BUILD-2035%20READY-050310?style=for-the-badge&labelColor=050310&color=38BDF8" height="30"/>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/divider-glow.svg" width="100%"/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/avatar-frame.svg" width="190" alt="STUBBORN monogram" />
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/glass-card.svg" width="420" alt="Available for work" />
+
+</div>
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/divider-tech.svg" width="100%"/>
+
+<h2 align="center">✦ &nbsp; ABOUT &nbsp; ✦</h2>
+<p align="center"><sub>// identity.json — decoded</sub></p>
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/jarvis.svg" width="230" align="left" alt="HUD" hspace="30"/>
+</div>
+
+Frontend engineer building interfaces that feel like the future is already here — precise, fast, quietly luxurious.
+I care about the one‑pixel misalignment nobody else notices, the transition curve that makes a UI feel expensive,
+and the small moments of delight that turn a product into an experience.
+
+**Currently focused on:**
+- Building production UI systems in **React** and **Next.js**
+- Designing component architecture that scales without becoming noise
+- Automating the boring parts with **Node.js**, **Docker** and **GitHub Actions**
+- Exploring **AI-assisted engineering** and where automation meets craft
+
+**Philosophy:** ship fast, but never ship ugly. If it doesn't feel right, it isn't done.
+
+<br clear="left"/>
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/hero-bg.svg" width="100%"/>
+
+<h2 align="center">✦ &nbsp; JOURNEY &nbsp; ✦</h2>
+<p align="center"><sub>// timeline.render() — milestones that shaped the stack</sub></p>
+
+<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/icons/spark.svg" width="30" valign="middle"/> &nbsp; **First line of code** — fell into HTML/CSS and never left
+<br/><br/>
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/icons/code.svg" width="30" valign="middle"/> &nbsp; **Went deep on JavaScript** — learned to think in components before frameworks made it easy
+<br/><br/>
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/icons/terminal.svg" width="30" valign="middle"/> &nbsp; **Adopted React + the modern stack** — Next.js, TypeScript, tooling, CI/CD
+<br/><br/>
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/icons/target.svg" width="30" valign="middle"/> &nbsp; **Started designing systems, not screens** — reusable UI, design tokens, motion language
+<br/><br/>
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/icons/rocket.svg" width="30" valign="middle"/> &nbsp; **Now** — building this exact profile as a living portfolio, one commit at a time
+
+</div>
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/grid.svg" width="100%"/>
+
+<h2 align="center">✦ &nbsp; FEATURED WORK &nbsp; ✦</h2>
+<p align="center"><sub>// pulling live data — no mockups, no fakes</sub></p>
+
+<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/floating-card.svg" width="380" alt="Design language preview"/>
 
 <br/><br/>
 
-<!-- STATUS BADGES ROW -->
-<img src="https://img.shields.io/badge/%E2%9C%A6%20STATUS-ONLINE-0B0B14?style=for-the-badge&labelColor=0B0B14&color=39FF88" height="30"/>
-<img src="https://img.shields.io/badge/%E2%97%8E%20LOCATION-INDIA-0B0B14?style=for-the-badge&labelColor=0B0B14&color=60A5FA" height="30"/>
-<img src="https://img.shields.io/badge/%E2%9C%A6%20FOCUS-FRONTEND-0B0B14?style=for-the-badge&labelColor=0B0B14&color=E879F9" height="30"/>
-
-</div>
-
-<br/>
-
-<!-- ============================================ -->
-<!-- SVG DIVIDER -->
-<!-- ============================================ -->
-<p align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
-</p>
-
-<br/>
-
-<!-- ============================================ -->
-<!-- GLASSMORPHISM INTRO CARD -->
-<!-- ============================================ -->
-<table align="center" width="100%">
-<tr>
-<td align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                    ║
-║   class StubbornLove extends Developer {                          ║
-║       role      = "Frontend Developer";                           ║
-║       stack     = ["React", "JavaScript", "HTML", "CSS"];         ║
-║       obsession = "pixel-perfect, buttery-smooth interfaces";     ║
-║       mindset    = "if it doesn't feel right, it isn't done";     ║
-║   }                                                                ║
-║                                                                    ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-<b><i>"Frontend developer with a soft spot for beautiful UI, smooth experiences,<br/>
-and digital details that quietly leave an impression."</i></b>
-</p>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=stubbornlove&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge&labelColor=0B0B14" />
-<img src="https://img.shields.io/github/followers/stubbornlove?style=for-the-badge&color=60A5FA&labelColor=0B0B14&label=FOLLOWERS" />
-<img src="https://img.shields.io/github/stars/stubbornlove?style=for-the-badge&color=E879F9&labelColor=0B0B14&label=STARS" />
-
-</div>
-
-<br/>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
-</p>
-
-<br/>
-
-<!-- ============================================ -->
-<!-- ABOUT ME -->
-<!-- ============================================ -->
-<h2 align="center">✦ &nbsp; ABOUT ME &nbsp; ✦</h2>
-<p align="center"><sub>// a quick download of who's behind the code</sub></p>
-
-<br/>
-
-<table width="100%">
-<tr>
-<td width="60%" valign="top">
-
-<h3>👨‍💻&nbsp; Who I Am</h3>
-
-- 🎯 &nbsp; Frontend developer focused on **modern UI, responsiveness & smooth UX**
-- ⚛️ &nbsp; I build with **React, JavaScript, HTML, CSS** — turning ideas into interfaces that feel alive
-- 🎨 &nbsp; I care about **visual balance, interaction details & polished layouts**
-- ☕ &nbsp; Best work happens between **chai, late-night focus & half-finished ideas**
-- 🚀 &nbsp; Constantly leveling up my **frontend craft & design instincts**
-- 🖤 &nbsp; I believe great interfaces don't just work — they **feel right**
-
-<br/>
-
-<h3>💡&nbsp; Things I Love Building</h3>
-
-<img src="https://img.shields.io/badge/-Beautiful%20Landing%20Pages-0B0B14?style=flat-square&color=A78BFA"/>
-<img src="https://img.shields.io/badge/-Frontend%20Dashboards-0B0B14?style=flat-square&color=60A5FA"/>
-<img src="https://img.shields.io/badge/-Portfolio%20Sites-0B0B14?style=flat-square&color=F472B6"/>
-<br/>
-<img src="https://img.shields.io/badge/-Reusable%20UI%20Components-0B0B14?style=flat-square&color=34D399"/>
-<img src="https://img.shields.io/badge/-Clean%20Modern%20Interfaces-0B0B14?style=flat-square&color=FBBF24"/>
-<img src="https://img.shields.io/badge/-Creative%20Micro%20Projects-0B0B14?style=flat-square&color=C084FC"/>
-
-</td>
-<td width="40%" align="center" valign="middle">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" style="border-radius:16px" alt="coding gif" />
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
-</p>
-
-<!-- ============================================ -->
-<!-- TECH STACK -->
-<!-- ============================================ -->
-<h2 align="center">✦ &nbsp; TECH ARSENAL &nbsp; ✦</h2>
-<p align="center"><sub>// tools I reach for when building something worth shipping</sub></p>
-
-<br/>
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-**⚡ Core**
-
-<img src="https://skillicons.dev/icons?i=html,css,js,react&theme=dark" />
-
-</td>
-<td align="center" width="33%">
-
-**🛠 Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark" />
-
-</td>
-<td align="center" width="33%">
-
-**🚀 Deploy**
-
-<img src="https://skillicons.dev/icons?i=heroku,vercel,c,appwrite&theme=dark" />
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="https://img.shields.io/badge/HTML5-0B0B14?style=for-the-badge&logo=html5&logoColor=E34F26"/>
-<img src="https://img.shields.io/badge/CSS3-0B0B14?style=for-the-badge&logo=css3&logoColor=2965F1"/>
-<img src="https://img.shields.io/badge/JavaScript-0B0B14?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-<img src="https://img.shields.io/badge/React-0B0B14?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<br/>
-<img src="https://img.shields.io/badge/Git-0B0B14?style=for-the-badge&logo=git&logoColor=F97316"/>
-<img src="https://img.shields.io/badge/VS%20Code-0B0B14?style=for-the-badge&logo=visualstudiocode&logoColor=38BDF8"/>
-<img src="https://img.shields.io/badge/Figma-0B0B14?style=for-the-badge&logo=figma&logoColor=F24E1E"/>
-<img src="https://img.shields.io/badge/Adobe%20Illustrator-0B0B14?style=for-the-badge&logo=adobeillustrator&logoColor=FF9A00"/>
-<br/>
-<img src="https://img.shields.io/badge/Appwrite-0B0B14?style=for-the-badge&logo=appwrite&logoColor=F02E65"/>
-<img src="https://img.shields.io/badge/Heroku-0B0B14?style=for-the-badge&logo=heroku&logoColor=A78BFA"/>
-
-</div>
-
-<br/>
-
-<h3 align="center">💎 What I Bring</h3>
-<div align="center">
-
-<img src="https://img.shields.io/badge/Responsive%20Design-0B0B14?style=for-the-badge&logo=googlechrome&logoColor=60A5FA"/>
-<img src="https://img.shields.io/badge/React%20Interfaces-0B0B14?style=for-the-badge&logo=react&logoColor=67E8F9"/>
-<img src="https://img.shields.io/badge/UI%2FUX%20Thinking-0B0B14?style=for-the-badge&logo=figma&logoColor=F472B6"/>
-<br/>
-<img src="https://img.shields.io/badge/Clean%20Code-0B0B14?style=flat-square&logo=codefactor&logoColor=22C55E"/>
-<img src="https://img.shields.io/badge/Performance%20Focused-0B0B14?style=flat-square&logo=lighthouse&logoColor=FACC15"/>
-<img src="https://img.shields.io/badge/Always%20Improving-0B0B14?style=flat-square&logo=bookstack&logoColor=60A5FA"/>
-
-</div>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
-</p>
-
-<!-- ============================================ -->
-<!-- GITHUB ANALYTICS -->
-<!-- ============================================ -->
-<h2 align="center">✦ &nbsp; GITHUB ANALYTICS &nbsp; ✦</h2>
-<p align="center"><sub>// the numbers behind the noise</sub></p>
-
-<br/>
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=stubbornlove&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0B14&title_color=E879F9&icon_color=60A5FA&text_color=E5E7EB&ring_color=A78BFA" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=stubbornlove&theme=tokyonight&hide_border=true&background=0B0B14&ring=E879F9&fire=60A5FA&currStreakLabel=E5E7EB&sideLabels=A78BFA" />
-
-<br/>
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stubbornlove&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B0B14&title_color=E879F9&text_color=E5E7EB&langs_count=8" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=stubbornlove&repo=stubbornlove&theme=tokyonight&hide_border=true&bg_color=050310&title_color=E879F9&icon_color=60A5FA&text_color=E5E7EB" alt="stubbornlove/stubbornlove — this repository, live" />
 
 <br/><br/>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=stubbornlove&theme=tokyo-night&hide_border=true&bg_color=0B0B14&color=A78BFA&line=E879F9&point=60A5FA&area=true&area_color=A78BFA" />
+<a href="https://github.com/stubbornlove?tab=repositories">
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/neon-button.svg" width="300" alt="View all repositories"/>
+</a>
 
 </div>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
-</p>
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/divider-wave.svg" width="100%"/>
 
-<!-- ============================================ -->
-<!-- SNAKE CONTRIBUTION -->
-<!-- ============================================ -->
+<h2 align="center">✦ &nbsp; TECH DASHBOARD &nbsp; ✦</h2>
+<p align="center"><sub>// stack.json — everything currently in rotation</sub></p>
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/hologram.svg" width="340" alt="Rendering UI system"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+**Languages**
+<br/>
+<img src="https://img.shields.io/badge/JavaScript-050310?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/TypeScript-050310?style=for-the-badge&logo=typescript&logoColor=3178C6"/>
+<img src="https://img.shields.io/badge/Python-050310?style=for-the-badge&logo=python&logoColor=3776AB"/>
+
+<br/><br/>
+
+**Frontend**
+<br/>
+<img src="https://img.shields.io/badge/React-050310?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Next.js-050310?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF"/>
+<img src="https://img.shields.io/badge/HTML5-050310?style=for-the-badge&logo=html5&logoColor=E34F26"/>
+<img src="https://img.shields.io/badge/CSS3-050310?style=for-the-badge&logo=css3&logoColor=2965F1"/>
+
+<br/><br/>
+
+**Backend &amp; Data**
+<br/>
+<img src="https://img.shields.io/badge/Node.js-050310?style=for-the-badge&logo=nodedotjs&logoColor=339933"/>
+<img src="https://img.shields.io/badge/MongoDB-050310?style=for-the-badge&logo=mongodb&logoColor=47A248"/>
+<img src="https://img.shields.io/badge/PostgreSQL-050310?style=for-the-badge&logo=postgresql&logoColor=4169E1"/>
+<img src="https://img.shields.io/badge/Redis-050310?style=for-the-badge&logo=redis&logoColor=DC382D"/>
+<img src="https://img.shields.io/badge/Firebase-050310?style=for-the-badge&logo=firebase&logoColor=FFCA28"/>
+
+<br/><br/>
+
+**Cloud &amp; DevOps**
+<br/>
+<img src="https://img.shields.io/badge/Docker-050310?style=for-the-badge&logo=docker&logoColor=2496ED"/>
+<img src="https://img.shields.io/badge/Linux-050310?style=for-the-badge&logo=linux&logoColor=FCC624"/>
+<img src="https://img.shields.io/badge/AWS-050310?style=for-the-badge&logo=amazonaws&logoColor=FF9900"/>
+<img src="https://img.shields.io/badge/Cloudflare-050310?style=for-the-badge&logo=cloudflare&logoColor=F38020"/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-050310?style=for-the-badge&logo=githubactions&logoColor=2088FF"/>
+
+<br/><br/>
+
+**AI &amp; Automation**
+<br/>
+<img src="https://img.shields.io/badge/AI%20Assisted%20Workflows-050310?style=for-the-badge&logo=openai&logoColor=A78BFA"/>
+<img src="https://img.shields.io/badge/Process%20Automation-050310?style=for-the-badge&logo=zapier&logoColor=FF4A00"/>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/particles.svg" width="100%"/>
+
+<h2 align="center">✦ &nbsp; LIVE METRICS &nbsp; ✦</h2>
+<p align="center"><sub>// pulling straight from the GitHub API</sub></p>
+
+<br/>
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=stubbornlove&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050310&title_color=E879F9&icon_color=60A5FA&text_color=E5E7EB&ring_color=A78BFA" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=stubbornlove&theme=tokyonight&hide_border=true&background=050310&ring=E879F9&fire=60A5FA&currStreakLabel=E5E7EB&sideLabels=A78BFA" alt="Streak Stats"/>
+
+<br/>
+
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stubbornlove&layout=compact&theme=tokyonight&hide_border=true&bg_color=050310&title_color=E879F9&text_color=E5E7EB&langs_count=8" alt="Top Languages"/>
+
+<br/><br/>
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=stubbornlove&theme=tokyo-night&hide_border=true&bg_color=050310&color=A78BFA&line=E879F9&point=60A5FA&area=true&area_color=A78BFA" alt="Contribution Activity Graph"/>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/background.svg" width="100%"/>
+
 <h2 align="center">✦ &nbsp; CONTRIBUTION SNAKE &nbsp; ✦</h2>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/output/github-snake-dark.svg" alt="snake animation" width="100%"/>
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/output/github-snake-dark.svg" alt="Contribution snake animation" width="100%"/>
 </div>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
-</p>
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/divider-glow.svg" width="100%"/>
 
-<!-- ============================================ -->
-<!-- CURRENT FOCUS -->
-<!-- ============================================ -->
-<h2 align="center">✦ &nbsp; CURRENT FOCUS &nbsp; ✦</h2>
+<h2 align="center">✦ &nbsp; ACHIEVEMENTS &amp; TROPHIES &nbsp; ✦</h2>
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=stubbornlove&theme=algolia&no-frame=true&no-bg=true&margin-w=12&row=1" alt="GitHub Trophies"/>
+</div>
 
 <br/>
 
-<table width="100%">
-<tr>
-<td width="33%" valign="top" align="center">
-
-### 🔭 Building
-
-Better frontend projects<br/>
-Reusable React components<br/>
-A premium personal portfolio<br/>
-Strong responsive layouts
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 🌱 Learning
-
-Advanced React patterns<br/>
-Motion & interaction design<br/>
-Performance optimization<br/>
-Cleaner architecture
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 🎯 2026 Goals
-
-Projects that stand out<br/>
-Deeper UI/UX quality<br/>
-Stronger React fundamentals<br/>
-A portfolio that lands
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
-</p>
-
-<!-- ============================================ -->
-<!-- TROPHIES -->
-<!-- ============================================ -->
-<h2 align="center">✦ &nbsp; TROPHY CABINET &nbsp; ✦</h2>
-
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=stubbornlove&theme=algolia&no-frame=true&no-bg=true&margin-w=12&row=1" />
+<img src="https://img.shields.io/badge/🏆-100%2B%20Contributions-050310?style=for-the-badge&labelColor=050310&color=A78BFA"/>
+<img src="https://img.shields.io/badge/⚡-Consistency%20Streak-050310?style=for-the-badge&labelColor=050310&color=38BDF8"/>
+<img src="https://img.shields.io/badge/🎨-Design%20First%20Engineer-050310?style=for-the-badge&labelColor=050310&color=E879F9"/>
 </div>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
-</p>
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/divider-tech.svg" width="100%"/>
 
-<!-- ============================================ -->
-<!-- CONTACT -->
-<!-- ============================================ -->
-<h2 align="center">✦ &nbsp; LET'S CONNECT &nbsp; ✦</h2>
-<p align="center"><sub>// open to collaboration, creative builds & good conversations</sub></p>
+<h2 align="center">✦ &nbsp; NETWORK &nbsp; ✦</h2>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=stubbornlove&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge&labelColor=050310" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/stubbornlove?style=for-the-badge&color=60A5FA&labelColor=050310&label=FOLLOWERS" alt="Followers"/>
+<img src="https://img.shields.io/github/stars/stubbornlove?style=for-the-badge&color=E879F9&labelColor=050310&label=STARS" alt="Stars"/>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/divider-wave.svg" width="100%"/>
+
+<h2 align="center">✦ &nbsp; CURRENT FREQUENCY &nbsp; ✦</h2>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Now%20Coding%20To-Lofi%20Nights%20%26%20Soft%20Beats-050310?style=for-the-badge&logo=spotify&logoColor=1DB954" alt="Now playing"/>
+
+<br/><br/>
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="360" style="border-radius:16px" alt="coding gif"/>
+
+<br/><br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote"/>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/divider-glow.svg" width="100%"/>
+
+<h2 align="center">✦ &nbsp; CONTACT &nbsp; ✦</h2>
+<p align="center"><sub>// open channel — say hello</sub></p>
 
 <br/>
 
 <div align="center">
 
 <a href="mailto:yogeshmahawar234@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-0B0B14?style=for-the-badge&logo=gmail&logoColor=EA4335" />
+<img src="https://img.shields.io/badge/Gmail-050310?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
 </a>
 <a href="https://twitter.com/yogeshm22513885">
-<img src="https://img.shields.io/badge/Twitter%20%2F%20X-0B0B14?style=for-the-badge&logo=x&logoColor=white" />
+<img src="https://img.shields.io/badge/Twitter%20%2F%20X-050310?style=for-the-badge&logo=x&logoColor=white"/>
 </a>
 <a href="https://instagram.com/Knowyourworth.darling">
-<img src="https://img.shields.io/badge/Instagram-0B0B14?style=for-the-badge&logo=instagram&logoColor=E1306C" />
+<img src="https://img.shields.io/badge/Instagram-050310?style=for-the-badge&logo=instagram&logoColor=E1306C"/>
+</a>
+
+<br/><br/>
+
+<a href="mailto:yogeshmahawar234@gmail.com">
+<img src="https://raw.githubusercontent.com/stubbornlove/stubbornlove/main/assets/neon-button.svg" width="300" alt="Send a message"/>
 </a>
 
 </div>
@@ -317,48 +259,16 @@ A portfolio that lands
 <br/>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Now%20Coding%20To-Lofi%20Nights%20%26%20Soft%20Beats-0B0B14?style=for-the-badge&logo=spotify&logoColor=1DB954" />
-</div>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" height="4px"/>
-</p>
-
-<!-- ============================================ -->
-<!-- PHILOSOPHY / QUOTE -->
-<!-- ============================================ -->
+<sub>"I like building things that look beautiful, feel effortless, and stay in people's minds a little longer."</sub>
 <br/>
-
-<div align="center">
-
-```
-"I like building things that look beautiful,
- feel effortless, and stay in people's minds a little longer."
-```
-
 <sub>Somewhere between code, design, and late-night thoughts — that's where I do my best work.</sub>
-
-<br/><br/>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-
 </div>
 
 <br/>
 
-<div align="center">
-<sub>☕ chai + code + midnight focus &nbsp;·&nbsp; 🎧 music in the background, ideas on the screen &nbsp;·&nbsp; ✨ a soft spot for polished UI</sub>
-</div>
-
-<br/><br/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050310,25:1A0B3D,50:2D1B69,75:1A0B3D,100:050310&height=150&section=footer" width="100%"/>
 
 <div align="center">
-<b>Thanks for stopping by 💜</b><br/>
-<sub>If you like clean design, creative work, and a little bit of charm — we'll probably get along.</sub>
+<sub>© 2026 STUBBORN — built with React-brain and CSS-heart.</sub>
 </div>
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0524,25:1A0B3D,50:2D1B69,75:1A0B3D,100:0F0524&height=150&section=footer" width="100%"/>
-
-</div>

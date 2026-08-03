@@ -1,0 +1,36 @@
+<svg width="1200" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="floorFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0616" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0a0616" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gridLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .rise { animation: rise 3.6s linear infinite; }
+      @keyframes rise { 0%{ opacity:0; } 10%{ opacity:0.8;} 100%{ transform: translateY(-40px); opacity:0;} }
+    </style>
+  </defs>
+  <rect width="1200" height="200" fill="#0a0616"/>
+  <g stroke="url(#gridLine)" stroke-width="1">
+    <line x1="600" y1="0" x2="0" y2="200"/>
+    <line x1="600" y1="0" x2="120" y2="200"/>
+    <line x1="600" y1="0" x2="260" y2="200"/>
+    <line x1="600" y1="0" x2="420" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="600" y1="0" x2="780" y2="200"/>
+    <line x1="600" y1="0" x2="940" y2="200"/>
+    <line x1="600" y1="0" x2="1080" y2="200"/>
+    <line x1="600" y1="0" x2="1200" y2="200"/>
+  </g>
+  <g stroke="#a855f7" stroke-opacity="0.35" fill="none">
+    <path d="M 0,150 Q 600,120 1200,150"/>
+    <path d="M 0,110 Q 600,85 1200,110"/>
+    <path d="M 0,70 Q 600,52 1200,70"/>
+    <path d="M 0,30 Q 600,18 1200,30"/>
+  </g>
+  <rect width="1200" height="200" fill="url(#floorFade)"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="360" height="180" viewBox="0 0 360 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glassFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glassBlurBg" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <style>
+      .shine { animation: shine 4s ease-in-out infinite; }
+      @keyframes shine { 0%,100%{ opacity:0.25;} 50%{ opacity:0.6;} }
+    </style>
+  </defs>
+  <rect width="360" height="180" rx="22" fill="#0b0618"/>
+  <circle cx="60" cy="40" r="90" fill="#a855f7" opacity="0.35" filter="url(#glassBlurBg)"/>
+  <circle cx="300" cy="150" r="90" fill="#38bdf8" opacity="0.30" filter="url(#glassBlurBg)"/>
+  <rect x="2" y="2" width="356" height="176" rx="20" fill="url(#glassFill)" stroke="url(#glassBorder)" stroke-width="1.4"/>
+  <path class="shine" d="M20,10 L70,10 L20,80 L10,80 Z" fill="#ffffff" opacity="0.15"/>
+  <text x="30" y="50" font-family="Consolas, monospace" font-size="12" letter-spacing="3" fill="#a78bfa">STATUS</text>
+  <text x="30" y="80" font-family="Arial, sans-serif" font-weight="700" font-size="24" fill="#f5f3ff">Available for work</text>
+  <text x="30" y="108" font-family="Consolas, monospace" font-size="13" fill="#7dd3fc">Open to freelance &amp; collabs</text>
+  <circle cx="330" cy="30" r="6" fill="#39ff88">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

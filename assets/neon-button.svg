@@ -1,0 +1,20 @@
+<svg width="340" height="76" viewBox="0 0 340 76" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="btnGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .btnPulse { animation: btnPulse 2.6s ease-in-out infinite; }
+      @keyframes btnPulse { 0%,100%{ opacity:0.55;} 50%{ opacity:1;} }
+    </style>
+  </defs>
+  <rect class="btnPulse" x="4" y="4" width="332" height="68" rx="18" fill="none" stroke="url(#btnGrad)" stroke-width="2" filter="url(#btnGlow)"/>
+  <rect x="4" y="4" width="332" height="68" rx="18" fill="#0a0616" fill-opacity="0.85"/>
+  <rect x="4" y="4" width="332" height="68" rx="18" fill="none" stroke="url(#btnGrad)" stroke-width="1.5"/>
+  <text x="170" y="45" text-anchor="middle" font-family="Consolas, monospace" font-weight="700" font-size="17" letter-spacing="2" fill="#f5f3ff">LET&#8217;S BUILD SOMETHING →</text>
+</svg>
