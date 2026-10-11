@@ -1,0 +1,104 @@
+<svg width="1200" height="350" viewBox="0 0 1200 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bookBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24062b"/>
+      <stop offset="50%" stop-color="#14031c"/>
+      <stop offset="100%" stop-color="#08020f"/>
+    </linearGradient>
+    <linearGradient id="pageLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1c0524"/>
+      <stop offset="92%" stop-color="#290833"/>
+      <stop offset="100%" stop-color="#120217"/>
+    </linearGradient>
+    <linearGradient id="pageRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#120217"/>
+      <stop offset="8%" stop-color="#290833"/>
+      <stop offset="100%" stop-color="#1c0524"/>
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a85"/>
+      <stop offset="50%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <linearGradient id="underlineGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a85"/>
+      <stop offset="50%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#ff2a85"/>
+    </linearGradient>
+    <filter id="pbGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .riseHeart1 { animation: riseH 6s ease-in-out infinite; }
+      .riseHeart2 { animation: riseH 7.5s ease-in-out infinite 1.5s; }
+      .riseHeart3 { animation: riseH 5.5s ease-in-out infinite 3s; }
+      .pulseUnderline { animation: pLine 2.5s ease-in-out infinite; }
+      @keyframes riseH { 0%{ transform:translateY(10px); opacity:0;} 40%{ opacity:0.9;} 100%{ transform:translateY(-35px); opacity:0;} }
+      @keyframes pLine { 0%,100%{ opacity:0.65;} 50%{ opacity:1;} }
+    </style>
+  </defs>
+
+  <rect width="1200" height="350" rx="20" fill="#05020c"/>
+
+  <!-- Outer Book Cover Frame -->
+  <rect x="24" y="16" width="1152" height="318" rx="22" fill="url(#bookBg)" stroke="url(#goldBorder)" stroke-width="2"/>
+
+  <!-- Left Page -->
+  <rect x="40" y="30" width="556" height="290" rx="14" fill="url(#pageLeft)" stroke="#fda4af" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- Right Page -->
+  <rect x="604" y="30" width="556" height="290" rx="14" fill="url(#pageRight)" stroke="#fda4af" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Center Book Spine & Glowing Ribbon -->
+  <line x1="600" y1="26" x2="600" y2="324" stroke="#fde047" stroke-opacity="0.5" stroke-width="2"/>
+  <path d="M 593,26 L 607,26 L 607,90 L 600,80 L 593,90 Z" fill="#ff2a85" filter="url(#pbGlow)"/>
+
+  <!-- Floating Hearts -->
+  <text class="riseHeart1" x="85" y="75" font-size="16" fill="#ff2a85">♥</text>
+  <text class="riseHeart2" x="545" y="85" font-size="14" fill="#fde047">✦</text>
+  <text class="riseHeart3" x="1115" y="75" font-size="16" fill="#ff2a85">♥</text>
+
+  <!-- ================= PAGE I: THE UNDERLINED BOOK ================= -->
+  <text x="72" y="64" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="3" fill="#fde047">CHAPTER I  ·  THE BOOK YOU UNDERLINE</text>
+  <text x="564" y="64" text-anchor="end" font-family="Georgia, serif" font-style="italic" font-size="12" fill="#fda4af">p. 143</text>
+  <line x1="72" y1="76" x2="564" y2="76" stroke="#f472b6" stroke-opacity="0.25"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16.5" fill="#ffe4e6">
+    <text x="72" y="114">"I don't want temporary talks or half-hearted nights.</text>
+
+    <!-- Highlighted & Underlined Line 1 -->
+    <rect x="68" y="128" width="465" height="26" rx="4" fill="#ff2a85" fill-opacity="0.18"/>
+    <text x="72" y="146" font-weight="700" fill="#ffffff" filter="url(#pbGlow)">I want to be the parts of the book you underline ❤️</text>
+    <line class="pulseUnderline" x1="72" y1="153" x2="528" y2="153" stroke="url(#underlineGlow)" stroke-width="2.5" filter="url(#pbGlow)"/>
+
+    <text x="72" y="184">the page you fold at the corner and come back to</text>
+    <text x="72" y="212">when the world gets loud at 2:00 in the morning.</text>
+
+    <!-- Highlighted & Underlined Line 2 -->
+    <rect x="68" y="228" width="470" height="26" rx="4" fill="#fde047" fill-opacity="0.14"/>
+    <text x="72" y="246" font-weight="700" fill="#fef08a">In a generation of casual, I love stubbornly &amp; deeply."</text>
+    <line class="pulseUnderline" x1="72" y1="253" x2="532" y2="253" stroke="url(#underlineGlow)" stroke-width="2"/>
+  </g>
+
+  <text x="72" y="294" font-family="Consolas, monospace" font-size="11.5" fill="#fda4af">✍️ Written in midnight ink  ·  — Yogesh (@stubbornlove)</text>
+
+  <!-- ================= PAGE II: HOW I LOVE ================= -->
+  <text x="636" y="64" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="3" fill="#fda4af">CHAPTER II  ·  IF IT&#8217;S YOU, HERE IS MY PROMISE</text>
+  <text x="1128" y="64" text-anchor="end" font-family="Georgia, serif" font-style="italic" font-size="12" fill="#fde047">p. 144</text>
+  <line x1="636" y1="76" x2="1128" y2="76" stroke="#f472b6" stroke-opacity="0.25"/>
+
+  <g font-family="'Segoe UI', Georgia, serif" font-size="14.5" fill="#ffe4e6">
+    <text x="636" y="112"><tspan fill="#ff2a85" font-weight="700">♥</tspan>  I will remember your coffee order, your comfort movie &amp;</text>
+    <text x="660" y="134" fill="#fbcfe8">the exact song that makes you feel understood.</text>
+
+    <text x="636" y="168"><tspan fill="#fde047" font-weight="700">♥</tspan>  I will listen to your 2 AM overthinking like it&#8217;s poetry</text>
+    <text x="660" y="190" fill="#fbcfe8">and never make you feel like you&#8217;re "too much."</text>
+
+    <text x="636" y="224"><tspan fill="#e879f9" font-weight="700">♥</tspan>  I build complex systems for the world, but with you,</text>
+    <text x="660" y="246" fill="#fbcfe8">everything will always feel effortless, safe &amp; warm.</text>
+  </g>
+
+  <!-- Bottom Highlighted Quote on Page II -->
+  <rect x="636" y="268" width="492" height="34" rx="10" fill="#2d0824" stroke="#fde047" stroke-opacity="0.6"/>
+  <text x="882" y="290" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-weight="700" font-size="14.5" fill="#fde047">✨ "Know your worth, darling — never settle for less than magic."</text>
+</svg>

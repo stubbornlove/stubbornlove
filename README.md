@@ -1,27 +1,47 @@
 <div align="center">
 
-<!-- ==================== VELVET MIDNIGHT HERO BANNER ==================== -->
-<img src="./assets/hero.svg" width="100%" alt="STUBBORNLOVE — Yogesh Mahawar // Architect by Mind, Poet by Soul" />
+<!-- ==================== VELVET MIDNIGHT ROMANTIC HERO ==================== -->
+<img src="./assets/hero.svg" width="100%" alt="STUBBORNLOVE — Yogesh Mahawar // Poet by Soul, Architect by Mind" />
 
 <br/>
 
-<!-- ==================== POETIC + TECH ANIMATED STREAM ==================== -->
+<!-- ==================== POETIC ANIMATED STREAM ==================== -->
 <a href="https://instagram.com/Knowyourworth.darling">
-  <img src="./assets/typing-stream.svg" width="88%" alt="I want to be the parts of the book you underline" />
+  <img src="./assets/typing-stream.svg" width="90%" alt="I want to be the parts of the book you underline" />
 </a>
 
 <br/><br/>
 
 <!-- ==================== LUXURY AURA & VIEWS BADGES ==================== -->
-<img src="https://img.shields.io/badge/AURA-MAGNETIC_%E2%9D%A4%EF%B8%8F-05020C?style=for-the-badge&labelColor=0b0316&color=FF2A85" height="28" alt="Aura Magnetic"/>
-<img src="https://img.shields.io/badge/VIBE-POET_%C3%97_ENGINEER-05020C?style=for-the-badge&labelColor=0b0316&color=FDE047" height="28" alt="Poet x Engineer"/>
+<img src="https://img.shields.io/badge/AURA-HOPELESS_ROMANTIC_%E2%9D%A4%EF%B8%8F-05020C?style=for-the-badge&labelColor=0b0316&color=FF2A85" height="28" alt="Hopeless Romantic"/>
+<img src="https://img.shields.io/badge/SOUL-POET_%C3%97_ARCHITECT-05020C?style=for-the-badge&labelColor=0b0316&color=FDE047" height="28" alt="Poet x Architect"/>
 <img src="https://img.shields.io/badge/PROFILE_VIEWS-5%2C420%2B_%F0%9F%94%A5-05020C?style=for-the-badge&labelColor=0b0316&color=E879F9" height="28" alt="Profile Views"/>
 <img src="https://img.shields.io/github/followers/stubbornlove?style=for-the-badge&color=38BDF8&labelColor=0b0316&label=FOLLOWERS" height="28" alt="Followers"/>
-<img src="https://img.shields.io/badge/BASED_IN-INDIA-05020C?style=for-the-badge&labelColor=0b0316&color=39FF88" height="28" alt="Based in India"/>
+<img src="https://img.shields.io/badge/HEART-LOYAL_TO_THE_CORE-05020C?style=for-the-badge&labelColor=0b0316&color=39FF88" height="28" alt="Loyal to the Core"/>
 
 </div>
 
+<img src="./assets/divider-hearts.svg" width="100%" alt="divider"/>
+
+<!-- ==================== THE BOOK YOU UNDERLINE // OPEN JOURNAL ==================== -->
+<h2 align="center">📖 &nbsp; THE BOOK YOU UNDERLINE // MIDNIGHT PAGES &nbsp; ❤️</h2>
+<p align="center"><sub>// open to page 143 — written in midnight ink &amp; stubborn love</sub></p>
+
+<div align="center">
+  <img src="./assets/poetry-book.svg" width="100%" alt="The Book You Underline — Open Poetry Journal" />
+</div>
+
 <img src="./assets/divider-glow.svg" width="100%" alt="divider"/>
+
+<!-- ==================== IDEAL MIDNIGHT VIBE & GREEN FLAGS ==================== -->
+<h2 align="center">🌹 &nbsp; MIDNIGHT VIBES, DETAILS I NOTICE &amp; GREEN FLAGS &nbsp; ✨</h2>
+<p align="center"><sub>// the little things that turn ordinary nights into poetry</sub></p>
+
+<div align="center">
+  <img src="./assets/green-flags-date.svg" width="100%" alt="Ideal Midnight Vibe, Details I Notice & Verified Green Flags" />
+</div>
+
+<img src="./assets/divider-hearts.svg" width="100%" alt="divider"/>
 
 <!-- ==================== LIVE PROFILE VIEWS & AURA TELEMETRY ==================== -->
 <h2 align="center">✦ &nbsp; LIVE PROFILE VIEWS &amp; AURA RADAR &nbsp; ✦</h2>
@@ -56,45 +76,48 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌹 Why "stubbornlove"?</h3>
+      <h3>🌹 How I Love &amp; Live ("stubbornlove")</h3>
       <blockquote>
         <i>"ɪ ᴡᴀɴᴛ ᴛᴏ ʙᴇ ᴛʜᴇ ᴘᴀʀᴛꜱ ᴏꜰ ᴛʜᴇ ʙᴏᴏᴋ ʏᴏᴜ ᴜɴᴅᴇʀʟɪɴᴇ ❤️"</i>
       </blockquote>
       <p>
-        Because in a world where everything feels temporary and rushed, I still believe in <b>depth, loyalty, and timeless craft</b>. Whether it's a line of code, a late-night conversation, or a promise — if I care about it, I give it <b>1000%</b>.
+        In a world where everyone is rushing and everything feels temporary, I still believe in <b>old-school romance, deep loyalty, and timeless effort</b>. Whether it's a promise, a 2 AM conversation, or a dream — if it matters to me, I give it <b>1000%</b>.
       </p>
       <ul>
-        <li><b>The Vibe:</b> Sunset drives, rainy window lofi &amp; effortless warmth</li>
-        <li><b>The Detail:</b> Notices the little things everyone else walks past</li>
-        <li><b>The Standard:</b> Protects your peace &amp; matches words with actions</li>
+        <li><b>My Love Language:</b> Remembering every tiny detail you once mentioned in passing</li>
+        <li><b>Perfect Escape:</b> Late-night drives, rain on the windshield, coffee &amp; slow songs</li>
+        <li><b>My Promise:</b> Protecting your peace, making you laugh &amp; never letting you doubt your worth</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ The Craft &amp; Ambition</h3>
+      <h3>⚡ The Ambition &amp; Craft</h3>
+      <blockquote>
+        <i>"Know your worth, darling — build an empire, but keep your heart soft."</i>
+      </blockquote>
       <p>
-        By day (and late into the night), I architect interfaces and AI systems that feel like the future is already here — <b>precise, fast, and quietly luxurious</b>.
+        By day (and late into the night), I architect luxury interfaces and AI systems that feel like the future is already here — <b>precise, fast, and unforgettable</b>.
       </p>
       <ul>
-        <li><b>Luxury Frontend UI:</b> React, Next.js, TypeScript &amp; 60fps motion systems</li>
+        <li><b>Luxury Frontend UI:</b> React, Next.js, TypeScript &amp; 60fps fluid motion</li>
         <li><b>Autonomous AI &amp; Bots:</b> Python neural agents, smart media &amp; cloud pipelines</li>
         <li><b>Full-Stack Architecture:</b> Node.js, PostgreSQL, Redis, Docker &amp; AWS</li>
-        <li><b>Motto:</b> <i>Ship fast, never ship ugly. Never half-love.</i></li>
+        <li><b>Life Rule:</b> <i>Never half-love. Never ship ugly.</i></li>
       </ul>
     </td>
   </tr>
 </table>
 
-<img src="./assets/divider-wave.svg" width="100%" alt="divider"/>
+<img src="./assets/divider-hearts.svg" width="100%" alt="divider"/>
 
 <!-- ==================== CURRENT FREQUENCY // VINYL DECK ==================== -->
-<h2 align="center">✦ &nbsp; MIDNIGHT FREQUENCY // ON REPEAT &nbsp; ✦</h2>
-<p align="center"><sub>// press play — the soundtrack behind the commits</sub></p>
+<h2 align="center">🎧 &nbsp; MIDNIGHT FREQUENCY // ON REPEAT &nbsp; 🌙</h2>
+<p align="center"><sub>// close your eyes &amp; press play — the soundtrack of stubbornlove</sub></p>
 
 <div align="center">
   <img src="./assets/audio-player.svg" width="92%" alt="Stubborn Love Midnight Vinyl Deck"/>
 </div>
 
-<img src="./assets/particles.svg" width="100%" alt="divider"/>
+<img src="./assets/divider-wave.svg" width="100%" alt="divider"/>
 
 <!-- ==================== ENGINEERING JOURNEY ==================== -->
 <h2 align="center">✦ &nbsp; THE EVOLUTION // TIMELINE &nbsp; ✦</h2>
@@ -104,7 +127,7 @@
   <img src="./assets/journey-timeline.svg" width="100%" alt="Engineering Journey Timeline" />
 </div>
 
-<img src="./assets/divider-glow.svg" width="100%" alt="divider"/>
+<img src="./assets/particles.svg" width="100%" alt="divider"/>
 
 <!-- ==================== FEATURED WORK ==================== -->
 <h2 align="center">✦ &nbsp; SIGNATURE CREATIONS &amp; ARCHITECTURE &nbsp; ✦</h2>
@@ -160,7 +183,7 @@
 
 <!-- ==================== LIVE METRICS & VELOCITY ==================== -->
 <h2 align="center">✦ &nbsp; CONSISTENCY &amp; VELOCITY &nbsp; ✦</h2>
-<p align="center"><sub>// SSS+ tier engineering metrics — because actions speak louder than words</sub></p>
+<p align="center"><sub>// SSS+ tier metrics — because actions speak louder than words</sub></p>
 
 <div align="center">
   <img width="100%" src="./assets/live-stats-bento.svg" alt="SSS+ Tier Engineering & Dedication Stats"/>
@@ -188,7 +211,7 @@
   <img src="./assets/trophies.svg" width="100%" alt="Holographic Trophies & Ranks"/>
 </div>
 
-<img src="./assets/divider-glow.svg" width="100%" alt="divider"/>
+<img src="./assets/divider-hearts.svg" width="100%" alt="divider"/>
 
 <!-- ==================== MIDNIGHT NOTE & CONTACT ==================== -->
 <div align="center">
@@ -197,8 +220,8 @@
 
 <br/>
 
-<h2 align="center">✦ &nbsp; SAY HELLO // MY INBOX IS OPEN &nbsp; ✦</h2>
-<p align="center"><sub>// whether it's about a project, a midnight song recommendation, or just saying hi ❤️</sub></p>
+<h2 align="center">💌 &nbsp; SAY HELLO // MY INBOX IS OPEN &nbsp; ❤️</h2>
+<p align="center"><sub>// whether it's about a midnight song, a dream project, or just a "hey" — I'd love to hear from you</sub></p>
 
 <div align="center">
 
@@ -217,7 +240,7 @@
 <br/><br/>
 
 <a href="https://instagram.com/Knowyourworth.darling">
-  <img src="./assets/neon-button.svg" width="350" alt="Don't Be Shy — Say Hello"/>
+  <img src="./assets/neon-button.svg" width="360" alt="Don't Be Shy — Say Hello"/>
 </a>
 
 </div>

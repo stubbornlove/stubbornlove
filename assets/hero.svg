@@ -1,54 +1,54 @@
-<svg width="1200" height="480" viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="velvetBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#040109"/>
-      <stop offset="30%" stop-color="#110422"/>
-      <stop offset="65%" stop-color="#1e0631"/>
-      <stop offset="100%" stop-color="#05020c"/>
+      <stop offset="0%" stop-color="#05010a"/>
+      <stop offset="30%" stop-color="#160426"/>
+      <stop offset="65%" stop-color="#260638"/>
+      <stop offset="100%" stop-color="#06010d"/>
     </linearGradient>
     <radialGradient id="auroraRose" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ff2a85" stop-opacity="0.48"/>
-      <stop offset="55%" stop-color="#be185d" stop-opacity="0.18"/>
+      <stop offset="0%" stop-color="#ff2a85" stop-opacity="0.52"/>
+      <stop offset="55%" stop-color="#be185d" stop-opacity="0.20"/>
       <stop offset="100%" stop-color="#ff2a85" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="auroraViolet" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.45"/>
-      <stop offset="55%" stop-color="#6b21a8" stop-opacity="0.16"/>
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#7e22ce" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="auroraGold" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.26"/>
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.30"/>
       <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="luxTitle" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffe4e6"/>
+      <stop offset="0%" stop-color="#fff1f2"/>
       <stop offset="22%" stop-color="#fda4af"/>
-      <stop offset="45%" stop-color="#f472b6"/>
-      <stop offset="70%" stop-color="#e879f9"/>
-      <stop offset="90%" stop-color="#c084fc"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+      <stop offset="48%" stop-color="#ff2a85"/>
+      <stop offset="72%" stop-color="#fde047"/>
+      <stop offset="90%" stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#f5d0fe"/>
     </linearGradient>
     <linearGradient id="roseGoldLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ff2a85" stop-opacity="0"/>
       <stop offset="25%" stop-color="#fb7185" stop-opacity="0.85"/>
       <stop offset="50%" stop-color="#fde047" stop-opacity="1"/>
       <stop offset="75%" stop-color="#e879f9" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ff2a85" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="ecgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ff2a85" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#ff2a85" stop-opacity="0.7"/>
-      <stop offset="50%" stop-color="#fda4af" stop-opacity="1"/>
-      <stop offset="80%" stop-color="#a855f7" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#ff2a85" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#fde047" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#e879f9" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff2a85" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="glassPill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#260c3d" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#0b0316" stop-opacity="0.92"/>
+      <stop offset="0%" stop-color="#2b0938" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#0c0214" stop-opacity="0.94"/>
     </linearGradient>
     <pattern id="starGrid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#f472b6" stroke-opacity="0.06" stroke-width="1"/>
-      <circle cx="24" cy="24" r="0.8" fill="#fda4af" fill-opacity="0.22"/>
+      <circle cx="24" cy="24" r="0.8" fill="#fda4af" fill-opacity="0.25"/>
     </pattern>
     <filter id="luxGlow" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="9" result="b1"/>
@@ -68,37 +68,48 @@
       .orbB { animation: driftB 11s ease-in-out infinite; }
       .orbC { animation: driftC 7s ease-in-out infinite; }
       .star { animation: twinkle 3s ease-in-out infinite; }
-      .heartBeat { animation: pulseHeart 1.4s ease-in-out infinite; transform-origin: 600px 142px; }
+      .heartBeat { animation: pulseHeart 1.3s ease-in-out infinite; transform-origin: 600px 136px; }
       .comet1 { animation: shoot1 6s linear infinite; }
       .comet2 { animation: shoot2 8.5s linear infinite 2.5s; }
+      .fh1 { animation: floatHeart 7s ease-in-out infinite; }
+      .fh2 { animation: floatHeart 8.5s ease-in-out infinite 1.5s; }
+      .fh3 { animation: floatHeart 6.5s ease-in-out infinite 3s; }
+      .fh4 { animation: floatHeart 9s ease-in-out infinite 4.2s; }
       @keyframes driftA { 0%,100%{ transform:translate(0px,0px);} 50%{ transform:translate(30px,-20px);} }
       @keyframes driftB { 0%,100%{ transform:translate(0px,0px);} 50%{ transform:translate(-30px,22px);} }
       @keyframes driftC { 0%,100%{ opacity:0.5;} 50%{ opacity:0.95;} }
       @keyframes twinkle { 0%,100%{ opacity:0.2; transform:scale(0.85);} 50%{ opacity:1; transform:scale(1.3);} }
-      @keyframes pulseHeart { 0%,100%{ transform:scale(1);} 15%{ transform:scale(1.22);} 30%{ transform:scale(0.96);} 45%{ transform:scale(1.14);} }
+      @keyframes pulseHeart { 0%,100%{ transform:scale(1);} 15%{ transform:scale(1.26);} 30%{ transform:scale(0.95);} 45%{ transform:scale(1.16);} }
       @keyframes shoot1 { 0%{ transform:translate(0,0); opacity:0;} 10%{ opacity:1;} 35%{ transform:translate(320px,140px); opacity:0;} 100%{ opacity:0;} }
       @keyframes shoot2 { 0%{ transform:translate(0,0); opacity:0;} 10%{ opacity:1;} 35%{ transform:translate(-340px,150px); opacity:0;} 100%{ opacity:0;} }
+      @keyframes floatHeart { 0%{ transform:translateY(20px); opacity:0;} 40%{ opacity:0.85;} 100%{ transform:translateY(-60px); opacity:0;} }
     </style>
   </defs>
 
   <!-- Velvet Night Background -->
-  <rect width="1200" height="480" rx="22" fill="url(#velvetBg)"/>
-  <rect width="1200" height="480" rx="22" fill="url(#starGrid)"/>
+  <rect width="1200" height="500" rx="22" fill="url(#velvetBg)"/>
+  <rect width="1200" height="500" rx="22" fill="url(#starGrid)"/>
 
   <!-- Romantic Aurora Clouds -->
-  <circle class="orbA" cx="240" cy="140" r="260" fill="url(#auroraRose)"/>
-  <circle class="orbB" cx="960" cy="320" r="270" fill="url(#auroraViolet)"/>
-  <circle class="orbC" cx="600" cy="215" r="230" fill="url(#auroraGold)"/>
+  <circle class="orbA" cx="240" cy="140" r="270" fill="url(#auroraRose)"/>
+  <circle class="orbB" cx="960" cy="330" r="280" fill="url(#auroraViolet)"/>
+  <circle class="orbC" cx="600" cy="220" r="240" fill="url(#auroraGold)"/>
 
   <!-- Shooting Stars (Comets) -->
   <g class="comet1">
-    <line x1="120" y1="40" x2="185" y2="68" stroke="#fda4af" stroke-width="2" stroke-linecap="round" filter="url(#softGlow)"/>
-    <circle cx="185" cy="68" r="2.5" fill="#ffffff"/>
+    <line x1="120" y1="40" x2="185" y2="68" stroke="#fda4af" stroke-width="2.2" stroke-linecap="round" filter="url(#softGlow)"/>
+    <circle cx="185" cy="68" r="2.8" fill="#ffffff"/>
   </g>
   <g class="comet2">
-    <line x1="1060" y1="50" x2="995" y2="78" stroke="#e879f9" stroke-width="2" stroke-linecap="round" filter="url(#softGlow)"/>
-    <circle cx="995" cy="78" r="2.5" fill="#ffffff"/>
+    <line x1="1060" y1="50" x2="995" y2="78" stroke="#fde047" stroke-width="2.2" stroke-linecap="round" filter="url(#softGlow)"/>
+    <circle cx="995" cy="78" r="2.8" fill="#ffffff"/>
   </g>
+
+  <!-- Floating Glowing Hearts Across the Sky -->
+  <text class="fh1" x="140" y="290" font-size="18" fill="#ff2a85" filter="url(#softGlow)">♥</text>
+  <text class="fh2" x="290" y="180" font-size="14" fill="#fda4af" filter="url(#softGlow)">♥</text>
+  <text class="fh3" x="910" y="185" font-size="15" fill="#fde047" filter="url(#softGlow)">♥</text>
+  <text class="fh4" x="1060" y="295" font-size="19" fill="#ff2a85" filter="url(#softGlow)">♥</text>
 
   <!-- Starlight Constellation Dots -->
   <g fill="#ffe4e6">
@@ -115,56 +126,59 @@
   </g>
 
   <!-- Top Luxury Status Bar -->
-  <rect x="28" y="20" width="1144" height="38" rx="19" fill="#0c041a" fill-opacity="0.82" stroke="#f472b6" stroke-opacity="0.35" stroke-width="1"/>
+  <rect x="28" y="20" width="1144" height="38" rx="19" fill="#12031c" fill-opacity="0.85" stroke="#ff2a85" stroke-opacity="0.45" stroke-width="1.2"/>
   <circle cx="52" cy="39" r="5" fill="#ff2a85" filter="url(#softGlow)">
-    <animate attributeName="opacity" values="1;0.35;1" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
   </circle>
-  <text x="68" y="43" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" letter-spacing="2" fill="#fda4af">HEARTBEAT: ACTIVE</text>
-  <text x="600" y="43" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" letter-spacing="3.5" fill="#fde047">✦ YOGESH MAHAWAR  ·  ARCHITECT BY MIND, POET BY SOUL ✦</text>
-  <text x="1148" y="43" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="11.5" letter-spacing="2" fill="#e879f9">@STUBBORNLOVE ♥</text>
+  <text x="68" y="43" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" letter-spacing="2" fill="#fda4af">HEARTBEAT: FOR YOU ❤️</text>
+  <text x="600" y="43" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" letter-spacing="3.5" fill="#fde047">✦ YOGESH MAHAWAR  ·  POET BY SOUL, ARCHITECT BY MIND ✦</text>
+  <text x="1148" y="43" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="11.5" letter-spacing="2" fill="#f5d0fe">@KNOWYOURWORTH.DARLING</text>
 
   <!-- Animated ECG Heartbeat Wave + Glowing Center Heart -->
-  <path d="M 100,142 L 470,142 L 490,126 L 508,162 L 528,104 L 548,176 L 566,134 L 580,142 L 620,142 L 634,134 L 652,176 L 672,104 L 692,162 L 710,126 L 730,142 L 1100,142" fill="none" stroke="url(#ecgGrad)" stroke-width="2.2" filter="url(#softGlow)"/>
-  <text class="heartBeat" x="600" y="150" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#ff2a85" filter="url(#luxGlow)">❤️</text>
+  <path d="M 90,136 L 465,136 L 485,120 L 505,158 L 525,96 L 545,172 L 565,128 L 580,136 L 620,136 L 635,128 L 655,172 L 675,96 L 695,158 L 715,120 L 735,136 L 1110,136" fill="none" stroke="url(#ecgGrad)" stroke-width="2.4" filter="url(#softGlow)"/>
+  <text class="heartBeat" x="600" y="145" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="26" fill="#ff2a85" filter="url(#luxGlow)">❤️</text>
 
   <!-- Main Centerpiece Title: STUBBORNLOVE -->
-  <text x="600" y="242" text-anchor="middle" font-family="'Segoe UI', Georgia, serif" font-weight="900" font-size="86" letter-spacing="14" fill="#ff2a85" opacity="0.28" filter="url(#luxGlow)">STUBBORNLOVE</text>
-  <text x="600" y="240" text-anchor="middle" font-family="'Segoe UI', Georgia, serif" font-weight="900" font-size="86" letter-spacing="14" fill="url(#luxTitle)" filter="url(#softGlow)">STUBBORNLOVE</text>
+  <text x="600" y="232" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="900" font-size="84" letter-spacing="14" fill="#ff2a85" opacity="0.32" filter="url(#luxGlow)">STUBBORNLOVE</text>
+  <text x="600" y="230" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="900" font-size="84" letter-spacing="14" fill="url(#luxTitle)" filter="url(#softGlow)">STUBBORNLOVE</text>
 
-  <!-- Signature Romantic Quote -->
-  <text x="600" y="286" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" letter-spacing="1.5" fill="#ffe4e6" filter="url(#softGlow)">"I want to be the parts of the book you underline ❤️"</text>
+  <!-- Primary Signature Romantic Quote -->
+  <text x="600" y="278" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="22" letter-spacing="1.2" fill="#ffffff" filter="url(#softGlow)">"I want to be the parts of the book you underline ❤️"</text>
 
-  <!-- Role & Craft Subtitle -->
-  <text x="600" y="320" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-weight="700" font-size="14" letter-spacing="4.5" fill="#f472b6">YOGESH MAHAWAR  <tspan fill="#fde047">✦</tspan>  FRONTEND ARCHITECT  <tspan fill="#fde047">✦</tspan>  CREATIVE ENGINEER</text>
+  <!-- Secondary Poetic Whisper -->
+  <text x="600" y="308" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="15.5" letter-spacing="1" fill="#fde047">Know your worth, darling — some souls are meant to be loved like poetry, not just read in passing.</text>
 
-  <line x1="180" y1="344" x2="1020" y2="344" stroke="url(#roseGoldLine)" stroke-width="1.5" opacity="0.8"/>
+  <!-- Role & Identity Subtitle -->
+  <text x="600" y="340" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-weight="700" font-size="13" letter-spacing="4" fill="#fda4af">YOGESH MAHAWAR  <tspan fill="#fde047">♥</tspan>  OLD-SCHOOL ROMANTIC  <tspan fill="#fde047">♥</tspan>  LUXURY UI &amp; AI ENGINEER</text>
+
+  <line x1="160" y1="362" x2="1040" y2="362" stroke="url(#roseGoldLine)" stroke-width="1.6" opacity="0.85"/>
 
   <!-- Bottom 5 Luxury Velvet Glass Pills -->
-  <g transform="translate(88, 372)" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="1.5">
+  <g transform="translate(76, 386)" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="1.2">
     <!-- Pill 1 -->
-    <rect x="0" y="0" width="194" height="40" rx="20" fill="url(#glassPill)" stroke="#ff2a85" stroke-opacity="0.65" stroke-width="1.3"/>
-    <text x="97" y="25" text-anchor="middle" fill="#ffe4e6">🌹 OLD-SCHOOL SOUL</text>
+    <rect x="0" y="0" width="202" height="42" rx="21" fill="url(#glassPill)" stroke="#ff2a85" stroke-opacity="0.75" stroke-width="1.4"/>
+    <text x="101" y="26" text-anchor="middle" fill="#ffe4e6">🌹 HOPELESS ROMANTIC</text>
 
     <!-- Pill 2 -->
-    <rect x="210" y="0" width="198" height="40" rx="20" fill="url(#glassPill)" stroke="#e879f9" stroke-opacity="0.65" stroke-width="1.3"/>
-    <text x="309" y="25" text-anchor="middle" fill="#fae8ff">✨ LUXURY UI CRAFT</text>
+    <rect x="216" y="0" width="196" height="42" rx="21" fill="url(#glassPill)" stroke="#fde047" stroke-opacity="0.75" stroke-width="1.4"/>
+    <text x="314" y="26" text-anchor="middle" fill="#fef9c3">💌 POET WHO CODES</text>
 
     <!-- Pill 3 -->
-    <rect x="424" y="0" width="194" height="40" rx="20" fill="url(#glassPill)" stroke="#fde047" stroke-opacity="0.65" stroke-width="1.3"/>
-    <text x="521" y="25" text-anchor="middle" fill="#fef9c3">⚡ 10X BUILDER &amp; AI</text>
+    <rect x="426" y="0" width="196" height="42" rx="21" fill="url(#glassPill)" stroke="#e879f9" stroke-opacity="0.75" stroke-width="1.4"/>
+    <text x="524" y="26" text-anchor="middle" fill="#fae8ff">🌙 2 AM DEEP TALKS</text>
 
     <!-- Pill 4 -->
-    <rect x="634" y="0" width="194" height="40" rx="20" fill="url(#glassPill)" stroke="#38bdf8" stroke-opacity="0.65" stroke-width="1.3"/>
-    <text x="731" y="25" text-anchor="middle" fill="#e0f2fe">🎧 MIDNIGHT LOFI</text>
+    <rect x="636" y="0" width="196" height="42" rx="21" fill="url(#glassPill)" stroke="#38bdf8" stroke-opacity="0.75" stroke-width="1.4"/>
+    <text x="734" y="26" text-anchor="middle" fill="#e0f2fe">✨ LUXURY ARCHITECT</text>
 
     <!-- Pill 5 -->
-    <rect x="844" y="0" width="180" height="40" rx="20" fill="url(#glassPill)" stroke="#39ff88" stroke-opacity="0.65" stroke-width="1.3"/>
-    <text x="934" y="25" text-anchor="middle" fill="#dcfce7">💎 RARE BREED</text>
+    <rect x="846" y="0" width="202" height="42" rx="21" fill="url(#glassPill)" stroke="#39ff88" stroke-opacity="0.75" stroke-width="1.4"/>
+    <text x="947" y="26" text-anchor="middle" fill="#dcfce7">❤️ LOYAL TO THE CORE</text>
   </g>
 
   <!-- Subtle Bottom Caption -->
-  <text x="600" y="446" text-anchor="middle" font-family="Consolas, monospace" font-size="11" letter-spacing="3" fill="#fda4af" opacity="0.75">HALF LOGIC  ·  HALF POETRY  ·  100% UNFORGETTABLE</text>
+  <text x="600" y="466" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="13.5" letter-spacing="2" fill="#fda4af">"In a room full of temporary, I am the one who stays."</text>
 
   <!-- Outer Velvet Rose-Gold Frame -->
-  <rect x="1.5" y="1.5" width="1197" height="477" rx="22" fill="none" stroke="url(#roseGoldLine)" stroke-width="2"/>
+  <rect x="1.5" y="1.5" width="1197" height="497" rx="22" fill="none" stroke="url(#roseGoldLine)" stroke-width="2.2"/>
 </svg>

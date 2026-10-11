@@ -1,0 +1,24 @@
+<svg width="1200" height="56" viewBox="0 0 1200 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a85" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#ff2a85" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#fde047" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#e879f9" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#e879f9" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="hGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .beat { animation: hb 1.5s ease-in-out infinite; transform-origin: 600px 28px; }
+      @keyframes hb { 0%,100%{ transform:scale(1);} 20%{ transform:scale(1.25);} 40%{ transform:scale(0.95);} 60%{ transform:scale(1.15);} }
+    </style>
+  </defs>
+  <line x1="60" y1="28" x2="555" y2="28" stroke="url(#hLine)" stroke-width="1.6"/>
+  <line x1="645" y1="28" x2="1140" y2="28" stroke="url(#hLine)" stroke-width="1.6"/>
+  <text x="572" y="32" text-anchor="middle" font-size="12" fill="#fde047">✦</text>
+  <text class="beat" x="600" y="34" text-anchor="middle" font-size="18" fill="#ff2a85" filter="url(#hGlow)">❤️</text>
+  <text x="628" y="32" text-anchor="middle" font-size="12" fill="#fde047">✦</text>
+</svg>

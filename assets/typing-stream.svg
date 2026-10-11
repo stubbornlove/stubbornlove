@@ -1,14 +1,14 @@
-<svg width="1000" height="58" viewBox="0 0 1000 58" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="60" viewBox="0 0 1000 60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="tsBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#190524" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#280834" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#190524" stop-opacity="0.9"/>
+      <stop offset="0%" stop-color="#1e0426" stop-opacity="0.92"/>
+      <stop offset="50%" stop-color="#310738" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#1e0426" stop-opacity="0.92"/>
     </linearGradient>
     <linearGradient id="tsBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff2a85" stop-opacity="0.7"/>
-      <stop offset="50%" stop-color="#fde047" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.7"/>
+      <stop offset="0%" stop-color="#ff2a85" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#fde047" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#e879f9" stop-opacity="0.8"/>
     </linearGradient>
     <style>
       .line1 { animation: cycle 12s infinite 0s; opacity: 0; }
@@ -23,12 +23,12 @@
     </style>
   </defs>
 
-  <rect x="2" y="2" width="996" height="54" rx="27" fill="url(#tsBg)" stroke="url(#tsBorder)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="996" height="56" rx="28" fill="url(#tsBg)" stroke="url(#tsBorder)" stroke-width="1.6"/>
 
-  <g font-family="Consolas, 'Courier New', monospace" font-weight="700" font-size="16" letter-spacing="1.5" text-anchor="middle">
-    <text class="line1" x="500" y="35" fill="#ffe4e6">❤️ "I want to be the parts of the book you underline..."</text>
-    <text class="line2" x="500" y="35" fill="#fde047">✨ Architect by Mind  ·  Old-School Romantic by Soul</text>
-    <text class="line3" x="500" y="35" fill="#7dd3fc">⚡ Building Luxury React / Next.js Interfaces &amp; AI Empires</text>
-    <text class="line4" x="500" y="35" fill="#f5d0fe">🌙 Late-Night Drives, Lofi Rain &amp; 100% Genuine Effort</text>
+  <g font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="17" letter-spacing="1" text-anchor="middle">
+    <text class="line1" x="500" y="36" fill="#ffe4e6">❤️ "I want to be the parts of the book you underline..."</text>
+    <text class="line2" x="500" y="36" fill="#fde047">🌹 "Know your worth, darling — in a world of casual, I choose forever."</text>
+    <text class="line3" x="500" y="36" fill="#fbcfe8">🌙 Midnight drives, rain on the glass, coffee &amp; losing track of time with you...</text>
+    <text class="line4" x="500" y="36" fill="#f5d0fe">✨ Building empires with my mind  ·  Keeping my softest side just for you.</text>
   </g>
 </svg>

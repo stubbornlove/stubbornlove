@@ -1,0 +1,84 @@
+<svg width="1200" height="285" viewBox="0 0 1200 285" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gfCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24072c"/>
+      <stop offset="100%" stop-color="#08020f"/>
+    </linearGradient>
+    <linearGradient id="gfBorder1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a85"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </linearGradient>
+    <linearGradient id="gfBorder2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#ff2a85"/>
+    </linearGradient>
+    <linearGradient id="gfBorder3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#39ff88"/>
+    </linearGradient>
+    <style>
+      .c1 { animation: floatG 6s ease-in-out infinite; }
+      .c2 { animation: floatG 6s ease-in-out infinite 1.2s; }
+      .c3 { animation: floatG 6s ease-in-out infinite 2.4s; }
+      @keyframes floatG { 0%,100%{ transform:translateY(0px);} 50%{ transform:translateY(-6px);} }
+    </style>
+  </defs>
+
+  <rect width="1200" height="285" rx="18" fill="#05020c"/>
+
+  <!-- ================= CARD 1: THE PERFECT MIDNIGHT VIBE ================= -->
+  <g class="c1" transform="translate(20, 16)">
+    <rect width="368" height="252" rx="20" fill="url(#gfCard)" stroke="url(#gfBorder1)" stroke-width="1.6"/>
+    <rect x="24" y="22" width="196" height="26" rx="13" fill="#2d0822" stroke="#ff2a85" stroke-opacity="0.7"/>
+    <text x="122" y="39" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#fda4af">🌙 IDEAL MIDNIGHT VIBE</text>
+
+    <text x="24" y="78" font-family="'Segoe UI', Georgia, serif" font-weight="800" font-size="20" fill="#ffe4e6">Rain, Long Drives &amp; You</text>
+    <line x1="24" y1="94" x2="344" y2="94" stroke="#ff2a85" stroke-opacity="0.3"/>
+
+    <text x="24" y="122" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#fbcfe8">"Windows slightly down at midnight,</text>
+    <text x="24" y="144" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#fbcfe8">soft rain on the glass, slow indie music</text>
+    <text x="24" y="166" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#fbcfe8">playing, two cups of hot coffee, and</text>
+    <text x="24" y="188" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#fbcfe8">losing track of time talking for hours."</text>
+
+    <rect x="24" y="208" width="320" height="26" rx="8" fill="#120317" stroke="#fde047" stroke-opacity="0.5"/>
+    <text x="184" y="225" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#fde047">✨ NO PHONES  ·  JUST PURE PRESENCE</text>
+  </g>
+
+  <!-- ================= CARD 2: THINGS I NOTICE ================= -->
+  <g class="c2" transform="translate(416, 16)">
+    <rect width="368" height="252" rx="20" fill="url(#gfCard)" stroke="url(#gfBorder2)" stroke-width="1.6"/>
+    <rect x="24" y="22" width="196" height="26" rx="13" fill="#260830" stroke="#e879f9" stroke-opacity="0.7"/>
+    <text x="122" y="39" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5d0fe">💌 DETAILS I NOTICE</text>
+
+    <text x="24" y="78" font-family="'Segoe UI', Georgia, serif" font-weight="800" font-size="20" fill="#ffe4e6">The Unspoken Little Things</text>
+    <line x1="24" y1="94" x2="344" y2="94" stroke="#e879f9" stroke-opacity="0.3"/>
+
+    <text x="24" y="122" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#fbcfe8">"The way your eyes light up when you</text>
+    <text x="24" y="144" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#fbcfe8">talk about your dreams, the subtle shift</text>
+    <text x="24" y="166" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#fbcfe8">in your voice when you&#8217;re tired, and the</text>
+    <text x="24" y="188" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#fbcfe8">lyrics you share when words fall short."</text>
+
+    <rect x="24" y="208" width="320" height="26" rx="8" fill="#120317" stroke="#ff2a85" stroke-opacity="0.5"/>
+    <text x="184" y="225" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#fda4af">❤️ OBSESSED WITH THE SMALL DETAILS</text>
+  </g>
+
+  <!-- ================= CARD 3: VERIFIED GREEN FLAGS ================= -->
+  <g class="c3" transform="translate(812, 16)">
+    <rect width="368" height="252" rx="20" fill="url(#gfCard)" stroke="url(#gfBorder3)" stroke-width="1.6"/>
+    <rect x="24" y="22" width="210" height="26" rx="13" fill="#07291c" stroke="#39ff88" stroke-opacity="0.7"/>
+    <text x="129" y="39" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#86efac">🟢 VERIFIED GREEN FLAGS</text>
+
+    <text x="24" y="78" font-family="'Segoe UI', Georgia, serif" font-weight="800" font-size="20" fill="#ffe4e6">Rare Standard of Love</text>
+    <line x1="24" y1="94" x2="344" y2="94" stroke="#39ff88" stroke-opacity="0.3"/>
+
+    <g font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" fill="#ffe4e6">
+      <text x="24" y="122">🌹  <tspan font-weight="700" fill="#fda4af">Old-School Loyalty:</tspan> Eyes only for one</text>
+      <text x="24" y="148">🎧  <tspan font-weight="700" fill="#fde047">Playlist Curator:</tspan> Songs that feel like hugs</text>
+      <text x="24" y="174">🛡️  <tspan font-weight="700" fill="#86efac">Emotional Safe Space:</tspan> Zero judgment</text>
+      <text x="24" y="198">👑  <tspan font-weight="700" fill="#f5d0fe">Actions &gt; Words:</tspan> Effort without asking</text>
+    </g>
+
+    <rect x="24" y="208" width="320" height="26" rx="8" fill="#120317" stroke="#39ff88" stroke-opacity="0.5"/>
+    <text x="184" y="225" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#86efac">💍 100% KEEPER  ·  BUILT DIFFERENT</text>
+  </g>
+</svg>
