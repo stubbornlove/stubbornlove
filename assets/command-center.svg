@@ -1,29 +1,29 @@
-<svg width="1200" height="370" viewBox="0 0 1200 370" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="390" viewBox="0 0 1200 390" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bentoBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#120829" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#070312" stop-opacity="0.98"/>
+      <stop offset="0%" stop-color="#19072c" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#070210" stop-opacity="0.98"/>
     </linearGradient>
     <linearGradient id="bentoBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#e879f9" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#ff2a85" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#fde047" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.65"/>
     </linearGradient>
-    <linearGradient id="barGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="barRose" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a85"/>
+      <stop offset="100%" stop-color="#fda4af"/>
+    </linearGradient>
+    <linearGradient id="barGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </linearGradient>
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#e879f9"/>
-    </linearGradient>
-    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366f1"/>
       <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
-    <linearGradient id="barGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10b981"/>
-      <stop offset="100%" stop-color="#39ff88"/>
-    </linearGradient>
     <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#e879f9" stop-opacity="0.55"/>
-      <stop offset="60%" stop-color="#a855f7" stop-opacity="0.18"/>
+      <stop offset="0%" stop-color="#ff2a85" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#a855f7" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
     </radialGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
@@ -32,124 +32,130 @@
     </filter>
     <style>
       .cursor { animation: blink 1.1s step-end infinite; }
+      .pulseCore { animation: pCore 2s ease-in-out infinite; transform-origin: 166px 172px; }
       @keyframes blink { 0%,100%{ opacity:1;} 50%{ opacity:0;} }
+      @keyframes pCore { 0%,100%{ transform:scale(1);} 50%{ transform:scale(1.12);} }
     </style>
   </defs>
 
   <!-- Background Canvas -->
-  <rect width="1200" height="370" rx="16" fill="#050310"/>
+  <rect width="1200" height="390" rx="18" fill="#05020c"/>
 
-  <!-- ================= LEFT CARD: J.A.R.V.I.S. HOLOGRAPHIC CORE ================= -->
-  <rect x="16" y="16" width="300" height="338" rx="18" fill="url(#bentoBg)" stroke="url(#bentoBorder)" stroke-width="1.5"/>
-  <text x="166" y="44" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="3" fill="#a78bfa">// NEURAL HUD CORE</text>
+  <!-- ================= LEFT CARD: CELESTIAL AURA & HEART CORE ================= -->
+  <rect x="16" y="16" width="300" height="358" rx="20" fill="url(#bentoBg)" stroke="url(#bentoBorder)" stroke-width="1.5"/>
+  <text x="166" y="46" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="2.5" fill="#fda4af">✦ CELESTIAL AURA CORE ✦</text>
 
-  <circle cx="166" cy="166" r="95" fill="url(#coreGlow)"/>
-  <circle cx="166" cy="166" r="88" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.65">
-    <animateTransform attributeName="transform" type="rotate" from="0 166 166" to="360 166 166" dur="26s" repeatCount="indefinite"/>
+  <circle cx="166" cy="172" r="98" fill="url(#coreGlow)"/>
+  <circle cx="166" cy="172" r="90" fill="none" stroke="#fde047" stroke-width="1.2" stroke-dasharray="4 10" opacity="0.7">
+    <animateTransform attributeName="transform" type="rotate" from="0 166 172" to="360 166 172" dur="24s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="166" cy="166" r="72" fill="none" stroke="#e879f9" stroke-width="2" stroke-dasharray="55 180" filter="url(#glow)">
-    <animateTransform attributeName="transform" type="rotate" from="360 166 166" to="0 166 166" dur="10s" repeatCount="indefinite"/>
+  <circle cx="166" cy="172" r="74" fill="none" stroke="#ff2a85" stroke-width="2.2" stroke-dasharray="65 160" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" from="360 166 172" to="0 166 172" dur="9s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="166" cy="166" r="56" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="20 14" opacity="0.8">
-    <animateTransform attributeName="transform" type="rotate" from="0 166 166" to="360 166 166" dur="14s" repeatCount="indefinite"/>
+  <circle cx="166" cy="172" r="56" fill="none" stroke="#e879f9" stroke-width="1.5" stroke-dasharray="22 14" opacity="0.85">
+    <animateTransform attributeName="transform" type="rotate" from="0 166 172" to="360 166 172" dur="13s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="166" cy="166" r="38" fill="#090418" stroke="url(#bentoBorder)" stroke-width="2"/>
-  <text x="166" y="175" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="26" letter-spacing="2" fill="#f5f3ff" filter="url(#glow)">YM</text>
+  <circle cx="166" cy="172" r="40" fill="#0c0318" stroke="url(#bentoBorder)" stroke-width="2"/>
+  <text class="pulseCore" x="166" y="181" text-anchor="middle" font-family="'Segoe UI', Georgia, serif" font-weight="900" font-size="25" letter-spacing="1.5" fill="#ffe4e6" filter="url(#glow)">YM</text>
 
   <!-- Core Telemetry Readouts -->
-  <line x1="40" y1="280" x2="292" y2="280" stroke="#8b5cf6" stroke-opacity="0.25"/>
-  <text x="44" y="304" font-family="Consolas, monospace" font-size="11.5" fill="#94a3b8">FRAME RATE:</text>
-  <text x="288" y="304" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#39ff88">60.0 FPS LOCKED</text>
-  <text x="44" y="328" font-family="Consolas, monospace" font-size="11.5" fill="#94a3b8">PIXEL TOLERANCE:</text>
-  <text x="288" y="328" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#38bdf8">±0.00px EXACT</text>
+  <line x1="38" y1="286" x2="294" y2="286" stroke="#f472b6" stroke-opacity="0.28"/>
+  <text x="42" y="310" font-family="Consolas, monospace" font-size="11.5" fill="#cbd5e1">VIBE CHECK:</text>
+  <text x="290" y="310" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#fda4af">100% HUSBAND MATERIAL</text>
+  <text x="42" y="334" font-family="Consolas, monospace" font-size="11.5" fill="#cbd5e1">AESTHETIC LEVEL:</text>
+  <text x="290" y="334" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#fde047">PINTEREST × 2035</text>
+  <text x="42" y="356" font-family="Consolas, monospace" font-size="11.5" fill="#cbd5e1">HEART STATUS:</text>
+  <text x="290" y="356" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#39ff88">DEEP &amp; STUBBORN ❤️</text>
 
-  <!-- ================= CENTER CARD: IDENTITY.TS TERMINAL ================= -->
-  <rect x="334" y="16" width="532" height="338" rx="18" fill="url(#bentoBg)" stroke="url(#bentoBorder)" stroke-width="1.5"/>
+  <!-- ================= CENTER CARD: SOUL_AND_CODE.TS TERMINAL ================= -->
+  <rect x="334" y="16" width="532" height="358" rx="20" fill="url(#bentoBg)" stroke="url(#bentoBorder)" stroke-width="1.5"/>
   <!-- Window Header -->
-  <rect x="335" y="17" width="530" height="36" rx="17" fill="#090416"/>
-  <circle cx="358" cy="35" r="5.5" fill="#ef4444"/>
-  <circle cx="376" cy="35" r="5.5" fill="#f59e0b"/>
-  <circle cx="394" cy="35" r="5.5" fill="#10b981"/>
-  <text x="600" y="39" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#a78bfa">~/stubbornlove/identity.ts — zsh</text>
+  <rect x="335" y="17" width="530" height="38" rx="19" fill="#0b0316"/>
+  <circle cx="358" cy="36" r="5.5" fill="#ff2a85"/>
+  <circle cx="376" cy="36" r="5.5" fill="#fde047"/>
+  <circle cx="394" cy="36" r="5.5" fill="#39ff88"/>
+  <text x="600" y="40" text-anchor="middle" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#fda4af">~/yogesh/soul_and_code.ts — midnight.zsh</text>
 
   <!-- Code Content -->
-  <g font-family="Consolas, 'Courier New', monospace" font-size="13">
-    <text x="358" y="80" fill="#475569">01</text>
-    <text x="388" y="80" fill="#c084fc">const</text>
-    <text x="432" y="80" fill="#38bdf8">engineer</text>
-    <text x="498" y="80" fill="#e2e8f0">: <tspan fill="#f472b6">Architect</tspan> = {</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="12.8">
+    <text x="356" y="78" fill="#64748b">01</text>
+    <text x="384" y="78" fill="#f472b6">const</text>
+    <text x="428" y="78" fill="#fde047">yogesh</text>
+    <text x="478" y="78" fill="#e2e8f0">: <tspan fill="#38bdf8">RareBreed</tspan> = {</text>
 
-    <text x="358" y="106" fill="#475569">02</text>
-    <text x="404" y="106" fill="#93c5fd">name</text><text x="436" y="106" fill="#e2e8f0">:</text>
-    <text x="450" y="106" fill="#39ff88">"Yogesh Mahawar"</text><text x="572" y="106" fill="#e2e8f0">,</text>
+    <text x="356" y="103" fill="#64748b">02</text>
+    <text x="400" y="103" fill="#93c5fd">name</text><text x="432" y="103" fill="#e2e8f0">:</text>
+    <text x="446" y="103" fill="#ffe4e6">"Yogesh Mahawar"</text><text x="568" y="103" fill="#e2e8f0">,</text>
 
-    <text x="358" y="132" fill="#475569">03</text>
-    <text x="404" y="132" fill="#93c5fd">alias</text><text x="444" y="132" fill="#e2e8f0">:</text>
-    <text x="458" y="132" fill="#39ff88">"stubbornlove"</text><text x="564" y="132" fill="#e2e8f0">,</text>
+    <text x="356" y="128" fill="#64748b">03</text>
+    <text x="400" y="128" fill="#93c5fd">byDay</text><text x="440" y="128" fill="#e2e8f0">:</text>
+    <text x="454" y="128" fill="#38bdf8">"Building luxury UIs &amp; AI systems ⚡"</text><text x="720" y="128" fill="#e2e8f0">,</text>
 
-    <text x="358" y="158" fill="#475569">04</text>
-    <text x="404" y="158" fill="#93c5fd">role</text><text x="436" y="158" fill="#e2e8f0">:</text>
-    <text x="450" y="158" fill="#fde047">"Frontend &amp; AI Systems Engineer"</text><text x="690" y="158" fill="#e2e8f0">,</text>
+    <text x="356" y="153" fill="#64748b">04</text>
+    <text x="400" y="153" fill="#93c5fd">byNight</text><text x="454" y="153" fill="#e2e8f0">:</text>
+    <text x="468" y="153" fill="#fda4af">"Late-night drives, lofi rain &amp; poetry 🌙"</text><text x="772" y="153" fill="#e2e8f0">,</text>
 
-    <text x="358" y="184" fill="#475569">05</text>
-    <text x="404" y="184" fill="#93c5fd">stack</text><text x="444" y="184" fill="#e2e8f0">: [</text>
-    <text x="468" y="184" fill="#e879f9">"React"</text><text x="520" y="184" fill="#e2e8f0">, </text>
-    <text x="534" y="184" fill="#e879f9">"Next.js"</text><text x="602" y="184" fill="#e2e8f0">, </text>
-    <text x="616" y="184" fill="#e879f9">"TypeScript"</text><text x="708" y="184" fill="#e2e8f0">, </text>
-    <text x="722" y="184" fill="#e879f9">"Python"</text><text x="782" y="184" fill="#e2e8f0">],</text>
+    <text x="356" y="178" fill="#64748b">05</text>
+    <text x="400" y="178" fill="#93c5fd">superpower</text><text x="476" y="178" fill="#e2e8f0">:</text>
+    <text x="490" y="178" fill="#fde047">"Noticing the tiny details others miss"</text><text x="776" y="178" fill="#e2e8f0">,</text>
 
-    <text x="358" y="210" fill="#475569">06</text>
-    <text x="404" y="210" fill="#93c5fd">craft</text><text x="444" y="210" fill="#e2e8f0">: [</text>
-    <text x="468" y="210" fill="#38bdf8">"Design Systems"</text><text x="590" y="210" fill="#e2e8f0">, </text>
-    <text x="604" y="210" fill="#38bdf8">"AI Agents"</text><text x="688" y="210" fill="#e2e8f0">, </text>
-    <text x="702" y="210" fill="#38bdf8">"Cloud CI/CD"</text><text x="802" y="210" fill="#e2e8f0">],</text>
+    <text x="356" y="203" fill="#64748b">06</text>
+    <text x="400" y="203" fill="#93c5fd">greenFlags</text><text x="476" y="203" fill="#e2e8f0">: [</text>
+    <text x="496" y="203" fill="#39ff88">"Loyal"</text><text x="548" y="203" fill="#e2e8f0">, </text>
+    <text x="560" y="203" fill="#39ff88">"Calm under chaos"</text><text x="692" y="203" fill="#e2e8f0">, </text>
+    <text x="704" y="203" fill="#39ff88">"Great taste"</text><text x="798" y="203" fill="#e2e8f0">],</text>
 
-    <text x="358" y="236" fill="#475569">07</text>
-    <text x="404" y="236" fill="#93c5fd">motto</text><text x="444" y="236" fill="#e2e8f0">:</text>
-    <text x="458" y="236" fill="#39ff88">"Ship fast, but never ship ugly."</text>
+    <text x="356" y="228" fill="#64748b">07</text>
+    <text x="400" y="228" fill="#93c5fd">loveLanguage</text><text x="490" y="228" fill="#e2e8f0">:</text>
+    <text x="504" y="228" fill="#e879f9">"Remembering everything you once mentioned"</text><text x="818" y="228" fill="#e2e8f0">,</text>
 
-    <text x="358" y="262" fill="#475569">08</text>
-    <text x="388" y="262" fill="#e2e8f0">};</text>
+    <text x="356" y="253" fill="#64748b">08</text>
+    <text x="400" y="253" fill="#93c5fd">rule</text><text x="432" y="253" fill="#e2e8f0">:</text>
+    <text x="446" y="253" fill="#ff2a85">"Never half-love. Never ship ugly. ❤️"</text>
+
+    <text x="356" y="278" fill="#64748b">09</text>
+    <text x="384" y="278" fill="#e2e8f0">};</text>
   </g>
 
   <!-- Terminal Prompt Bar -->
-  <rect x="354" y="290" width="492" height="44" rx="10" fill="#06020e" stroke="#8b5cf6" stroke-opacity="0.35"/>
-  <text x="372" y="317" font-family="Consolas, monospace" font-size="13" fill="#39ff88">➜</text>
-  <text x="394" y="317" font-family="Consolas, monospace" font-size="13" fill="#38bdf8">~/stubbornlove</text>
-  <text x="512" y="317" font-family="Consolas, monospace" font-size="13" fill="#f5f3ff">git push origin future --force-with-craft</text>
-  <rect class="cursor" x="816" y="304" width="8" height="16" fill="#e879f9"/>
+  <rect x="354" y="304" width="492" height="46" rx="12" fill="#07020f" stroke="#ff2a85" stroke-opacity="0.45"/>
+  <text x="372" y="332" font-family="Consolas, monospace" font-size="13" fill="#ff2a85">♥</text>
+  <text x="394" y="332" font-family="Consolas, monospace" font-size="13" fill="#fde047">~/stubbornlove</text>
+  <text x="512" y="332" font-family="Consolas, monospace" font-size="13" fill="#ffe4e6">making_the_world_a_little_more_beautiful</text>
+  <rect class="cursor" x="808" y="318" width="8" height="17" fill="#ff2a85"/>
 
   <!-- ================= RIGHT COLUMN: 2 STACKED BENTO CARDS ================= -->
-  <!-- Right Top Card: Availability -->
-  <rect x="884" y="16" width="300" height="160" rx="18" fill="url(#bentoBg)" stroke="url(#bentoBorder)" stroke-width="1.5"/>
-  <circle cx="914" cy="48" r="6" fill="#39ff88" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  <!-- Right Top Card: Vibe & Status -->
+  <rect x="884" y="16" width="300" height="168" rx="20" fill="url(#bentoBg)" stroke="url(#bentoBorder)" stroke-width="1.5"/>
+  <circle cx="914" cy="46" r="6" fill="#ff2a85" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-  <text x="930" y="52" font-family="Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="2.5" fill="#39ff88">AVAILABLE FOR WORK</text>
-  <text x="908" y="86" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="22" fill="#f5f3ff">Open to Collabs</text>
-  <text x="908" y="112" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#cbd5e1">Frontend Systems · Full-Stack · AI</text>
-  <rect x="908" y="128" width="252" height="30" rx="8" fill="#090416" stroke="#38bdf8" stroke-opacity="0.4"/>
-  <text x="1034" y="148" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" fill="#7dd3fc">⚡ RESPONSE TIME: &lt; 2 HOURS</text>
+  <text x="930" y="50" font-family="Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="2" fill="#fda4af">CURRENTLY IN ELEMENT</text>
+  <text x="908" y="84" font-family="'Segoe UI', Georgia, serif" font-weight="800" font-size="21" fill="#ffe4e6">Building &amp; Dreaming</text>
+  <text x="908" y="108" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#cbd5e1">Turning late-night coffee into</text>
+  <text x="908" y="126" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#cbd5e1">art, code &amp; unforgettable vibes.</text>
+  <rect x="908" y="138" width="252" height="28" rx="14" fill="#0b0316" stroke="#fde047" stroke-opacity="0.5"/>
+  <text x="1034" y="156" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#fde047">✨ OPEN TO WORK &amp; GOOD VIBES</text>
 
-  <!-- Right Bottom Card: Core Focus Bars -->
-  <rect x="884" y="194" width="300" height="160" rx="18" fill="url(#bentoBg)" stroke="url(#bentoBorder)" stroke-width="1.5"/>
-  <text x="908" y="222" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2.5" fill="#e879f9">// CORE TELEMETRY</text>
+  <!-- Right Bottom Card: Stats -->
+  <rect x="884" y="200" width="300" height="174" rx="20" fill="url(#bentoBg)" stroke="url(#bentoBorder)" stroke-width="1.5"/>
+  <text x="908" y="228" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2.5" fill="#fde047">✦ CHARACTER ATTRIBUTES</text>
 
   <!-- Bar 1 -->
-  <text x="908" y="248" font-family="Consolas, monospace" font-size="11.5" fill="#e2e8f0">UI &amp; Motion Systems</text>
-  <text x="1160" y="248" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" fill="#e879f9">99%</text>
-  <rect x="908" y="255" width="252" height="7" rx="3.5" fill="#1e103c"/>
-  <rect x="908" y="255" width="248" height="7" rx="3.5" fill="url(#barGrad1)"/>
+  <text x="908" y="254" font-family="Consolas, monospace" font-size="11.5" fill="#ffe4e6">Romance &amp; Aesthetic</text>
+  <text x="1160" y="254" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#ff2a85">100%</text>
+  <rect x="908" y="261" width="252" height="7" rx="3.5" fill="#240b36"/>
+  <rect x="908" y="261" width="252" height="7" rx="3.5" fill="url(#barRose)"/>
 
   <!-- Bar 2 -->
-  <text x="908" y="284" font-family="Consolas, monospace" font-size="11.5" fill="#e2e8f0">React / Next.js / TS</text>
-  <text x="1160" y="284" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" fill="#38bdf8">96%</text>
-  <rect x="908" y="291" width="252" height="7" rx="3.5" fill="#1e103c"/>
-  <rect x="908" y="291" width="242" height="7" rx="3.5" fill="url(#barGrad2)"/>
+  <text x="908" y="294" font-family="Consolas, monospace" font-size="11.5" fill="#ffe4e6">Ambition &amp; Intellect</text>
+  <text x="1160" y="294" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#fde047">99%</text>
+  <rect x="908" y="301" width="252" height="7" rx="3.5" fill="#240b36"/>
+  <rect x="908" y="301" width="249" height="7" rx="3.5" fill="url(#barGold)"/>
 
   <!-- Bar 3 -->
-  <text x="908" y="320" font-family="Consolas, monospace" font-size="11.5" fill="#e2e8f0">Python &amp; AI Automation</text>
-  <text x="1160" y="320" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" fill="#39ff88">95%</text>
-  <rect x="908" y="327" width="252" height="7" rx="3.5" fill="#1e103c"/>
-  <rect x="908" y="327" width="239" height="7" rx="3.5" fill="url(#barGrad3)"/>
+  <text x="908" y="334" font-family="Consolas, monospace" font-size="11.5" fill="#ffe4e6">Loyalty &amp; Consistency</text>
+  <text x="1160" y="334" text-anchor="end" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#38bdf8">∞ MAX</text>
+  <rect x="908" y="341" width="252" height="7" rx="3.5" fill="#240b36"/>
+  <rect x="908" y="341" width="252" height="7" rx="3.5" fill="url(#barCyan)"/>
 </svg>

@@ -1,0 +1,82 @@
+<svg width="1200" height="310" viewBox="0 0 1200 310" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mindCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#13092b"/>
+      <stop offset="100%" stop-color="#06020e"/>
+    </linearGradient>
+    <linearGradient id="heartCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#250726"/>
+      <stop offset="100%" stop-color="#09020f"/>
+    </linearGradient>
+    <linearGradient id="mindBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="heartBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a85"/>
+      <stop offset="50%" stop-color="#fda4af"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </linearGradient>
+    <filter id="dGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .floatL { animation: fl 6s ease-in-out infinite; }
+      .floatR { animation: fl 6s ease-in-out infinite 1.8s; }
+      @keyframes fl { 0%,100%{ transform:translateY(0px);} 50%{ transform:translateY(-5px);} }
+    </style>
+  </defs>
+
+  <rect width="1200" height="310" rx="18" fill="#05020c"/>
+
+  <!-- ================= LEFT CARD: THE ARCHITECT (MIND) ================= -->
+  <g class="floatL" transform="translate(20, 18)">
+    <rect width="564" height="274" rx="20" fill="url(#mindCard)" stroke="url(#mindBorder)" stroke-width="1.6"/>
+    <rect x="24" y="22" width="176" height="26" rx="13" fill="#0b1933" stroke="#38bdf8" stroke-opacity="0.6"/>
+    <text x="112" y="39" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#7dd3fc">⚡ THE ARCHITECT // MIND</text>
+
+    <text x="24" y="80" font-family="'Segoe UI', Georgia, serif" font-weight="800" font-size="24" fill="#f5f3ff">Relentless Builder &amp; Visionary</text>
+    <text x="24" y="104" font-family="Consolas, monospace" font-size="12" fill="#a78bfa">// Driven by craft, precision &amp; quiet ambition</text>
+    <line x1="24" y1="120" x2="540" y2="120" stroke="#38bdf8" stroke-opacity="0.25"/>
+
+    <text x="24" y="148" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" fill="#cbd5e1">✦ Turns complex ideas into luxury, high-speed interfaces &amp; AI systems.</text>
+    <text x="24" y="172" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" fill="#cbd5e1">✦ Notices the 1-pixel flaw &amp; the micro-interaction that feels like magic.</text>
+    <text x="24" y="196" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" fill="#cbd5e1">✦ Focused on building a future worth being proud of — zero shortcuts.</text>
+
+    <!-- Bottom Pills -->
+    <rect x="24" y="222" width="156" height="30" rx="8" fill="#080417" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="102" y="241" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#bae6fd">🧠 SHARP PROBLEM SOLVER</text>
+
+    <rect x="192" y="222" width="164" height="30" rx="8" fill="#080417" stroke="#a855f7" stroke-opacity="0.5"/>
+    <text x="274" y="241" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#e9d5ff">🚀 EMPIRE MINDSET</text>
+
+    <rect x="368" y="222" width="172" height="30" rx="8" fill="#080417" stroke="#39ff88" stroke-opacity="0.5"/>
+    <text x="454" y="241" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#bbf7d0">✨ CALM UNDER PRESSURE</text>
+  </g>
+
+  <!-- ================= RIGHT CARD: THE ROMANTIC (HEART) ================= -->
+  <g class="floatR" transform="translate(616, 18)">
+    <rect width="564" height="274" rx="20" fill="url(#heartCard)" stroke="url(#heartBorder)" stroke-width="1.6"/>
+    <rect x="24" y="22" width="182" height="26" rx="13" fill="#2d0822" stroke="#ff2a85" stroke-opacity="0.7"/>
+    <text x="115" y="39" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#fda4af">🌹 THE POET // HEART</text>
+
+    <text x="24" y="80" font-family="'Segoe UI', Georgia, serif" font-weight="800" font-size="24" fill="#ffe4e6">Old-School Soul in a Digital World</text>
+    <text x="24" y="104" font-family="Consolas, monospace" font-size="12" fill="#fda4af">// "I want to be the parts of the book you underline ❤️"</text>
+    <line x1="24" y1="120" x2="540" y2="120" stroke="#ff2a85" stroke-opacity="0.3"/>
+
+    <text x="24" y="148" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" fill="#ffe4e6">♥ Remembers the smallest things you mentioned once in passing.</text>
+    <text x="24" y="172" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" fill="#ffe4e6">♥ Curates midnight playlists, loves deep 2 AM talks &amp; sunset skies.</text>
+    <text x="24" y="196" font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" fill="#ffe4e6">♥ Believes in stubborn love — rare loyalty, warmth &amp; genuine effort.</text>
+
+    <!-- Green Flags Pills -->
+    <rect x="24" y="222" width="162" height="30" rx="8" fill="#140413" stroke="#ff2a85" stroke-opacity="0.6"/>
+    <text x="105" y="241" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#fda4af">🟢 REMEMBERS DETAILS</text>
+
+    <rect x="198" y="222" width="164" height="30" rx="8" fill="#140413" stroke="#fde047" stroke-opacity="0.6"/>
+    <text x="280" y="241" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#fef08a">🟢 PROTECTS YOUR PEACE</text>
+
+    <rect x="374" y="222" width="166" height="30" rx="8" fill="#140413" stroke="#e879f9" stroke-opacity="0.6"/>
+    <text x="457" y="241" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#f5d0fe">🟢 100% GENUINE SOUL</text>
+  </g>
+</svg>
