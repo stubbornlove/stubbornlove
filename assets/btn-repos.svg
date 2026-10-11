@@ -1,0 +1,21 @@
+<svg width="360" height="76" viewBox="0 0 360 76" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="repoBtnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <filter id="repoBtnGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .btnPulse { animation: btnPulse 2.8s ease-in-out infinite; }
+      @keyframes btnPulse { 0%,100%{ opacity:0.6;} 50%{ opacity:1;} }
+    </style>
+  </defs>
+  <rect class="btnPulse" x="4" y="4" width="352" height="68" rx="18" fill="none" stroke="url(#repoBtnGrad)" stroke-width="2" filter="url(#repoBtnGlow)"/>
+  <rect x="4" y="4" width="352" height="68" rx="18" fill="#0a0616" fill-opacity="0.9"/>
+  <rect x="4" y="4" width="352" height="68" rx="18" fill="none" stroke="url(#repoBtnGrad)" stroke-width="1.5"/>
+  <text x="180" y="44" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-weight="700" font-size="16" letter-spacing="2.5" fill="#f5f3ff">EXPLORE ALL REPOSITORIES →</text>
+</svg>

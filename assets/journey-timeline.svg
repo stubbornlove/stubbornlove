@@ -1,0 +1,90 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tlCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14092d"/>
+      <stop offset="100%" stop-color="#070312"/>
+    </linearGradient>
+    <linearGradient id="tlLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e879f9"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="tlGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="250" rx="16" fill="#050310"/>
+
+  <!-- Main Connecting Circuit Track -->
+  <line x1="90" y1="54" x2="1110" y2="54" stroke="url(#tlLine)" stroke-width="3" opacity="0.45"/>
+  <line x1="90" y1="54" x2="1110" y2="54" stroke="url(#tlLine)" stroke-width="1.5" stroke-dasharray="8 8"/>
+
+  <!-- Animated Data Pulse Traveling Across Timeline -->
+  <circle cy="54" r="5" fill="#39ff88" filter="url(#tlGlow)">
+    <animate attributeName="cx" values="90;1110;90" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ================= STAGE 01 ================= -->
+  <g transform="translate(20, 20)">
+    <circle cx="106" cy="34" r="14" fill="#090416" stroke="#e879f9" stroke-width="2.5" filter="url(#tlGlow)"/>
+    <circle cx="106" cy="34" r="5" fill="#e879f9"/>
+    <rect x="0" y="66" width="212" height="146" rx="14" fill="url(#tlCard)" stroke="#e879f9" stroke-opacity="0.45" stroke-width="1.2"/>
+    <text x="18" y="94" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#e879f9">01 // IGNITION</text>
+    <text x="18" y="120" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="15.5" fill="#f5f3ff">First Line of Code</text>
+    <text x="18" y="144" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">Fell into HTML &amp; CSS,</text>
+    <text x="18" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">obsessed over pixel-perfect</text>
+    <text x="18" y="180" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">layouts &amp; visual craft.</text>
+  </g>
+
+  <!-- ================= STAGE 02 ================= -->
+  <g transform="translate(252, 20)">
+    <circle cx="106" cy="34" r="14" fill="#090416" stroke="#c084fc" stroke-width="2.5" filter="url(#tlGlow)"/>
+    <circle cx="106" cy="34" r="5" fill="#c084fc"/>
+    <rect x="0" y="66" width="212" height="146" rx="14" fill="url(#tlCard)" stroke="#c084fc" stroke-opacity="0.45" stroke-width="1.2"/>
+    <text x="18" y="94" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#c084fc">02 // CORE ENGINE</text>
+    <text x="18" y="120" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="15.5" fill="#f5f3ff">Deep on JavaScript</text>
+    <text x="18" y="144" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">Mastered async runtime,</text>
+    <text x="18" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">DOM architecture &amp; state</text>
+    <text x="18" y="180" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">before frameworks.</text>
+  </g>
+
+  <!-- ================= STAGE 03 ================= -->
+  <g transform="translate(484, 20)">
+    <circle cx="106" cy="34" r="14" fill="#090416" stroke="#a855f7" stroke-width="2.5" filter="url(#tlGlow)"/>
+    <circle cx="106" cy="34" r="5" fill="#a855f7"/>
+    <rect x="0" y="66" width="212" height="146" rx="14" fill="url(#tlCard)" stroke="#a855f7" stroke-opacity="0.45" stroke-width="1.2"/>
+    <text x="18" y="94" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#a855f7">03 // MODERN STACK</text>
+    <text x="18" y="120" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="15.5" fill="#f5f3ff">React, Next.js &amp; TS</text>
+    <text x="18" y="144" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">Adopted strict TypeScript,</text>
+    <text x="18" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">SSR/RSC pipelines, Node.js</text>
+    <text x="18" y="180" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">&amp; Docker CI/CD workflows.</text>
+  </g>
+
+  <!-- ================= STAGE 04 ================= -->
+  <g transform="translate(716, 20)">
+    <circle cx="106" cy="34" r="14" fill="#090416" stroke="#60a5fa" stroke-width="2.5" filter="url(#tlGlow)"/>
+    <circle cx="106" cy="34" r="5" fill="#60a5fa"/>
+    <rect x="0" y="66" width="212" height="146" rx="14" fill="url(#tlCard)" stroke="#60a5fa" stroke-opacity="0.45" stroke-width="1.2"/>
+    <text x="18" y="94" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#60a5fa">04 // ARCHITECTURE</text>
+    <text x="18" y="120" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="15.5" fill="#f5f3ff">Systems Over Screens</text>
+    <text x="18" y="144" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">Reusable design tokens,</text>
+    <text x="18" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">fluid motion physics &amp;</text>
+    <text x="18" y="180" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">scalable component trees.</text>
+  </g>
+
+  <!-- ================= STAGE 05 ================= -->
+  <g transform="translate(948, 20)">
+    <circle cx="116" cy="34" r="14" fill="#090416" stroke="#39ff88" stroke-width="2.5" filter="url(#tlGlow)"/>
+    <circle cx="116" cy="34" r="5" fill="#39ff88">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="66" width="232" height="146" rx="14" fill="url(#tlCard)" stroke="#39ff88" stroke-opacity="0.6" stroke-width="1.4"/>
+    <text x="18" y="94" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#39ff88">05 // NOW &amp; 2035</text>
+    <text x="18" y="120" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="15.5" fill="#f5f3ff">AI Agents &amp; Craft</text>
+    <text x="18" y="144" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">Merging luxury frontend UI</text>
+    <text x="18" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">with autonomous Python AI</text>
+    <text x="18" y="180" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8">agents &amp; smart workflows.</text>
+  </g>
+</svg>

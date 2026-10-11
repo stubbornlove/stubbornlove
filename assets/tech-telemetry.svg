@@ -1,0 +1,97 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ttBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#13082a"/>
+      <stop offset="100%" stop-color="#06030f"/>
+    </linearGradient>
+    <linearGradient id="ttBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e879f9" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="gBarTS" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="gBarReact" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <linearGradient id="gBarPy" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#39ff88"/>
+    </linearGradient>
+    <filter id="ttGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="280" rx="18" fill="url(#ttBg)" stroke="url(#ttBorder)" stroke-width="1.5"/>
+
+  <!-- Left Radar / Hologram Ring -->
+  <g transform="translate(195, 140)">
+    <circle cx="0" cy="0" r="102" fill="none" stroke="#1e103c" stroke-width="12"/>
+    <circle cx="0" cy="0" r="102" fill="none" stroke="url(#gBarReact)" stroke-width="12" stroke-dasharray="600 640" stroke-linecap="round" filter="url(#ttGlow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="0" cy="0" r="78" fill="none" stroke="#1e103c" stroke-width="10"/>
+    <circle cx="0" cy="0" r="78" fill="none" stroke="url(#gBarTS)" stroke-width="10" stroke-dasharray="440 490" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="0" cy="0" r="56" fill="none" stroke="#1e103c" stroke-width="8"/>
+    <circle cx="0" cy="0" r="56" fill="none" stroke="url(#gBarPy)" stroke-width="8" stroke-dasharray="310 352" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="0" y="-4" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="22" fill="#f5f3ff">STACK</text>
+    <text x="0" y="16" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" letter-spacing="2" fill="#e879f9">TELEMETRY</text>
+  </g>
+
+  <line x1="370" y1="30" x2="370" y2="250" stroke="#8b5cf6" stroke-opacity="0.25"/>
+
+  <!-- Right Side: 2 Columns of Language & Stack Bars -->
+  <!-- Column 1 (x=405, width=360) -->
+  <g transform="translate(405, 36)" font-family="Consolas, monospace">
+    <!-- Item 1 -->
+    <text x="0" y="16" font-size="12.5" font-weight="700" fill="#f5f3ff">React.js &amp; Next.js Architecture</text>
+    <text x="355" y="16" text-anchor="end" font-size="12" fill="#e879f9">98%</text>
+    <rect x="0" y="24" width="355" height="9" rx="4.5" fill="#1b0e36"/>
+    <rect x="0" y="24" width="348" height="9" rx="4.5" fill="url(#gBarReact)"/>
+
+    <!-- Item 2 -->
+    <text x="0" y="84" font-size="12.5" font-weight="700" fill="#f5f3ff">TypeScript &amp; Modern JavaScript</text>
+    <text x="355" y="84" text-anchor="end" font-size="12" fill="#38bdf8">96%</text>
+    <rect x="0" y="92" width="355" height="9" rx="4.5" fill="#1b0e36"/>
+    <rect x="0" y="92" width="341" height="9" rx="4.5" fill="url(#gBarTS)"/>
+
+    <!-- Item 3 -->
+    <text x="0" y="152" font-size="12.5" font-weight="700" fill="#f5f3ff">Python, Async Bots &amp; AI Agents</text>
+    <text x="355" y="152" text-anchor="end" font-size="12" fill="#39ff88">95%</text>
+    <rect x="0" y="160" width="355" height="9" rx="4.5" fill="#1b0e36"/>
+    <rect x="0" y="160" width="337" height="9" rx="4.5" fill="url(#gBarPy)"/>
+  </g>
+
+  <!-- Column 2 (x=805, width=360) -->
+  <g transform="translate(805, 36)" font-family="Consolas, monospace">
+    <!-- Item 4 -->
+    <text x="0" y="16" font-size="12.5" font-weight="700" fill="#f5f3ff">UI Design Systems &amp; CSS Motion</text>
+    <text x="355" y="16" text-anchor="end" font-size="12" fill="#e879f9">99%</text>
+    <rect x="0" y="24" width="355" height="9" rx="4.5" fill="#1b0e36"/>
+    <rect x="0" y="24" width="351" height="9" rx="4.5" fill="url(#gBarReact)"/>
+
+    <!-- Item 5 -->
+    <text x="0" y="84" font-size="12.5" font-weight="700" fill="#f5f3ff">Node.js, Postgres, Mongo &amp; Redis</text>
+    <text x="355" y="84" text-anchor="end" font-size="12" fill="#38bdf8">92%</text>
+    <rect x="0" y="92" width="355" height="9" rx="4.5" fill="#1b0e36"/>
+    <rect x="0" y="92" width="326" height="9" rx="4.5" fill="url(#gBarTS)"/>
+
+    <!-- Item 6 -->
+    <text x="0" y="152" font-size="12.5" font-weight="700" fill="#f5f3ff">Docker, Linux, AWS &amp; CI/CD</text>
+    <text x="355" y="152" text-anchor="end" font-size="12" fill="#39ff88">90%</text>
+    <rect x="0" y="160" width="355" height="9" rx="4.5" fill="#1b0e36"/>
+    <rect x="0" y="160" width="320" height="9" rx="4.5" fill="url(#gBarPy)"/>
+  </g>
+
+  <!-- Footer Status Line -->
+  <text x="405" y="246" font-family="Consolas, monospace" font-size="11" letter-spacing="2" fill="#a78bfa">✦ REAL-TIME STACK DISTRIBUTION // VERIFIED ACROSS PUBLIC &amp; PRIVATE REPOSITORIES</text>
+</svg>

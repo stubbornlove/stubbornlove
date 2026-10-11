@@ -1,29 +1,33 @@
-<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="pGlowPurple" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.9"/>
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="pGlowBlue" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="pGlowPink" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.9"/>
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="pLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#e879f9" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
   </defs>
-  <rect width="1200" height="140" fill="#050310"/>
+  <line x1="0" y1="35" x2="1200" y2="35" stroke="url(#pLine)" stroke-width="1.5"/>
   <g>
-    <circle cx="60" cy="100" r="10" fill="url(#pGlowPurple)"><animate attributeName="cy" values="120;10;120" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="180" cy="90" r="7" fill="url(#pGlowBlue)"><animate attributeName="cy" values="130;5;130" dur="10s" repeatCount="indefinite" begin="1s"/><animate attributeName="opacity" values="0;1;0" dur="10s" repeatCount="indefinite" begin="1s"/></circle>
-    <circle cx="300" cy="110" r="9" fill="url(#pGlowPink)"><animate attributeName="cy" values="135;15;135" dur="7s" repeatCount="indefinite" begin="0.4s"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite" begin="0.4s"/></circle>
-    <circle cx="420" cy="80" r="6" fill="url(#pGlowBlue)"><animate attributeName="cy" values="120;0;120" dur="9s" repeatCount="indefinite" begin="2s"/><animate attributeName="opacity" values="0;1;0" dur="9s" repeatCount="indefinite" begin="2s"/></circle>
-    <circle cx="540" cy="100" r="8" fill="url(#pGlowPurple)"><animate attributeName="cy" values="130;10;130" dur="11s" repeatCount="indefinite" begin="0.8s"/><animate attributeName="opacity" values="0;1;0" dur="11s" repeatCount="indefinite" begin="0.8s"/></circle>
-    <circle cx="660" cy="90" r="7" fill="url(#pGlowPink)"><animate attributeName="cy" values="125;5;125" dur="8.5s" repeatCount="indefinite" begin="1.6s"/><animate attributeName="opacity" values="0;1;0" dur="8.5s" repeatCount="indefinite" begin="1.6s"/></circle>
-    <circle cx="780" cy="105" r="9" fill="url(#pGlowBlue)"><animate attributeName="cy" values="135;15;135" dur="9.5s" repeatCount="indefinite" begin="0.2s"/><animate attributeName="opacity" values="0;1;0" dur="9.5s" repeatCount="indefinite" begin="0.2s"/></circle>
-    <circle cx="900" cy="85" r="6" fill="url(#pGlowPurple)"><animate attributeName="cy" values="120;0;120" dur="7.5s" repeatCount="indefinite" begin="2.4s"/><animate attributeName="opacity" values="0;1;0" dur="7.5s" repeatCount="indefinite" begin="2.4s"/></circle>
-    <circle cx="1020" cy="95" r="8" fill="url(#pGlowPink)"><animate attributeName="cy" values="130;10;130" dur="10.5s" repeatCount="indefinite" begin="1.2s"/><animate attributeName="opacity" values="0;1;0" dur="10.5s" repeatCount="indefinite" begin="1.2s"/></circle>
-    <circle cx="1140" cy="100" r="7" fill="url(#pGlowBlue)"><animate attributeName="cy" values="125;5;125" dur="8s" repeatCount="indefinite" begin="0.6s"/><animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="90" cy="50" r="8" fill="url(#pGlowPurple)"><animate attributeName="cy" values="60;10;60" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="40" r="6" fill="url(#pGlowBlue)"><animate attributeName="cy" values="62;8;62" dur="6.5s" repeatCount="indefinite" begin="1s"/><animate attributeName="opacity" values="0.2;1;0.2" dur="6.5s" repeatCount="indefinite" begin="1s"/></circle>
+    <circle cx="410" cy="55" r="7" fill="url(#pGlowPink)"><animate attributeName="cy" values="62;12;62" dur="4.8s" repeatCount="indefinite" begin="0.4s"/><animate attributeName="opacity" values="0.2;1;0.2" dur="4.8s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="600" cy="35" r="9" fill="url(#pGlowPink)"><animate attributeName="r" values="6;11;6" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="50" r="7" fill="url(#pGlowBlue)"><animate attributeName="cy" values="62;10;62" dur="5.5s" repeatCount="indefinite" begin="0.8s"/><animate attributeName="opacity" values="0.2;1;0.2" dur="5.5s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="960" cy="45" r="6" fill="url(#pGlowPurple)"><animate attributeName="cy" values="60;8;60" dur="6s" repeatCount="indefinite" begin="1.4s"/><animate attributeName="opacity" values="0.2;1;0.2" dur="6s" repeatCount="indefinite" begin="1.4s"/></circle>
+    <circle cx="1110" cy="50" r="8" fill="url(#pGlowBlue)"><animate attributeName="cy" values="62;12;62" dur="5.2s" repeatCount="indefinite" begin="0.6s"/><animate attributeName="opacity" values="0.2;1;0.2" dur="5.2s" repeatCount="indefinite" begin="0.6s"/></circle>
   </g>
 </svg>
