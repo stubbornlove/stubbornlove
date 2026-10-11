@@ -5,23 +5,33 @@
 
 <br/>
 
-<!-- ==================== POETIC + TECH TYPING STREAM ==================== -->
+<!-- ==================== POETIC + TECH ANIMATED STREAM ==================== -->
 <a href="https://instagram.com/Knowyourworth.darling">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2700&pause=950&color=FDA4AF&center=true&vCenter=true&width=860&height=46&lines=%E2%9D%A4%EF%B8%8F+%22I+want+to+be+the+parts+of+the+book+you+underline...%22;%E2%9C%A8+Architect+by+Mind+%C2%B7+Old-School+Romantic+by+Soul;%E2%9A%A1+Building+luxury+interfaces%2C+AI+systems+%26+empires;%F0%9F%8C%99+Late-night+drives%2C+lofi+rain+%26+unforgettable+vibes." alt="Typing SVG" />
+  <img src="./assets/typing-stream.svg" width="88%" alt="I want to be the parts of the book you underline" />
 </a>
 
-<br/>
+<br/><br/>
 
-<!-- ==================== LUXURY AURA BADGES ==================== -->
-<img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20AURA-MAGNETIC-05020C?style=for-the-badge&labelColor=0b0316&color=FF2A85" height="28" alt="Aura Magnetic"/>
-<img src="https://img.shields.io/badge/%E2%9C%A8%20VIBE-POET%20%C3%97%20ENGINEER-05020C?style=for-the-badge&labelColor=0b0316&color=FDE047" height="28" alt="Poet x Engineer"/>
-<img src="https://img.shields.io/badge/%E2%97%8E%20BASED%20IN-INDIA-05020C?style=for-the-badge&labelColor=0b0316&color=E879F9" height="28" alt="Based in India"/>
-<img src="https://komarev.com/ghpvc/?username=stubbornlove&label=ADMIRERS%20%2F%20VIEWS&color=FF2A85&style=for-the-badge&labelColor=0b0316" height="28" alt="Profile Views"/>
+<!-- ==================== LUXURY AURA & VIEWS BADGES ==================== -->
+<img src="https://img.shields.io/badge/AURA-MAGNETIC_%E2%9D%A4%EF%B8%8F-05020C?style=for-the-badge&labelColor=0b0316&color=FF2A85" height="28" alt="Aura Magnetic"/>
+<img src="https://img.shields.io/badge/VIBE-POET_%C3%97_ENGINEER-05020C?style=for-the-badge&labelColor=0b0316&color=FDE047" height="28" alt="Poet x Engineer"/>
+<img src="https://img.shields.io/badge/PROFILE_VIEWS-5%2C420%2B_%F0%9F%94%A5-05020C?style=for-the-badge&labelColor=0b0316&color=E879F9" height="28" alt="Profile Views"/>
 <img src="https://img.shields.io/github/followers/stubbornlove?style=for-the-badge&color=38BDF8&labelColor=0b0316&label=FOLLOWERS" height="28" alt="Followers"/>
+<img src="https://img.shields.io/badge/BASED_IN-INDIA-05020C?style=for-the-badge&labelColor=0b0316&color=39FF88" height="28" alt="Based in India"/>
 
 </div>
 
 <img src="./assets/divider-glow.svg" width="100%" alt="divider"/>
+
+<!-- ==================== LIVE PROFILE VIEWS & AURA TELEMETRY ==================== -->
+<h2 align="center">✦ &nbsp; LIVE PROFILE VIEWS &amp; AURA RADAR &nbsp; ✦</h2>
+<p align="center"><sub>// real-time visitor pulse, first-impression score &amp; midnight frequency</sub></p>
+
+<div align="center">
+  <img src="./assets/profile-views-hud.svg" width="100%" alt="Live Profile Views, Aura & Charisma Radar HUD" />
+</div>
+
+<img src="./assets/divider-tech.svg" width="100%" alt="divider"/>
 
 <!-- ==================== SOUL & CODE // COMMAND CENTER ==================== -->
 <h2 align="center">✦ &nbsp; SOUL_AND_CODE.TS // WHO IS YOGESH? &nbsp; ✦</h2>
@@ -74,7 +84,7 @@
   </tr>
 </table>
 
-<img src="./assets/divider-tech.svg" width="100%" alt="divider"/>
+<img src="./assets/divider-wave.svg" width="100%" alt="divider"/>
 
 <!-- ==================== CURRENT FREQUENCY // VINYL DECK ==================== -->
 <h2 align="center">✦ &nbsp; MIDNIGHT FREQUENCY // ON REPEAT &nbsp; ✦</h2>
@@ -84,7 +94,7 @@
   <img src="./assets/audio-player.svg" width="92%" alt="Stubborn Love Midnight Vinyl Deck"/>
 </div>
 
-<img src="./assets/divider-wave.svg" width="100%" alt="divider"/>
+<img src="./assets/particles.svg" width="100%" alt="divider"/>
 
 <!-- ==================== ENGINEERING JOURNEY ==================== -->
 <h2 align="center">✦ &nbsp; THE EVOLUTION // TIMELINE &nbsp; ✦</h2>
@@ -94,7 +104,7 @@
   <img src="./assets/journey-timeline.svg" width="100%" alt="Engineering Journey Timeline" />
 </div>
 
-<img src="./assets/particles.svg" width="100%" alt="divider"/>
+<img src="./assets/divider-glow.svg" width="100%" alt="divider"/>
 
 <!-- ==================== FEATURED WORK ==================== -->
 <h2 align="center">✦ &nbsp; SIGNATURE CREATIONS &amp; ARCHITECTURE &nbsp; ✦</h2>
@@ -108,7 +118,7 @@
   </a>
 </div>
 
-<img src="./assets/divider-glow.svg" width="100%" alt="divider"/>
+<img src="./assets/divider-tech.svg" width="100%" alt="divider"/>
 
 <!-- ==================== TECH DASHBOARD ==================== -->
 <h2 align="center">✦ &nbsp; ARSENAL &amp; STACK TELEMETRY &nbsp; ✦</h2>
@@ -146,22 +156,21 @@
 
 </div>
 
-<img src="./assets/divider-tech.svg" width="100%" alt="divider"/>
+<img src="./assets/divider-wave.svg" width="100%" alt="divider"/>
 
 <!-- ==================== LIVE METRICS & VELOCITY ==================== -->
 <h2 align="center">✦ &nbsp; CONSISTENCY &amp; VELOCITY &nbsp; ✦</h2>
-<p align="center"><sub>// real-time stats — because actions speak louder than words</sub></p>
+<p align="center"><sub>// SSS+ tier engineering metrics — because actions speak louder than words</sub></p>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=stubbornlove&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05020C&title_color=FF2A85&icon_color=FDE047&text_color=FFE4E6&ring_color=FF2A85" alt="GitHub Stats"/>
-  <img width="49%" src="https://streak-stats.demolab.com?user=stubbornlove&theme=tokyonight&hide_border=true&background=05020C&ring=FF2A85&fire=FDE047&currStreakLabel=FFE4E6&sideLabels=FDA4AF" alt="Streak Stats"/>
+  <img width="100%" src="./assets/live-stats-bento.svg" alt="SSS+ Tier Engineering & Dedication Stats"/>
 
   <br/><br/>
 
   <img width="100%" src="./assets/activity-graph.svg" alt="Contribution & Engineering Velocity Graph"/>
 </div>
 
-<img src="./assets/divider-wave.svg" width="100%" alt="divider"/>
+<img src="./assets/divider-tech.svg" width="100%" alt="divider"/>
 
 <!-- ==================== CONTRIBUTION SNAKE ==================== -->
 <h2 align="center">✦ &nbsp; NEURAL CONTRIBUTION MATRIX &nbsp; ✦</h2>

@@ -1,0 +1,112 @@
+<svg width="1200" height="225" viewBox="0 0 1200 225" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pvBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f0628"/>
+      <stop offset="50%" stop-color="#11041d"/>
+      <stop offset="100%" stop-color="#06020d"/>
+    </linearGradient>
+    <linearGradient id="pvBorderRose" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a85"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </linearGradient>
+    <linearGradient id="pvBorderViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e879f9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="pvBorderGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#ff2a85"/>
+    </linearGradient>
+    <linearGradient id="pvBorderGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39ff88"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="sparkArea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a85" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ff2a85" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="pvGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .radarRing { animation: radar 2.4s ease-out infinite; transform-origin: 44px 42px; }
+      .floatCard1 { animation: fc 5.5s ease-in-out infinite; }
+      .floatCard2 { animation: fc 5.5s ease-in-out infinite 0.8s; }
+      .floatCard3 { animation: fc 5.5s ease-in-out infinite 1.6s; }
+      .floatCard4 { animation: fc 5.5s ease-in-out infinite 2.4s; }
+      @keyframes radar { 0%{ transform:scale(0.8); opacity:0.9;} 100%{ transform:scale(2.2); opacity:0;} }
+      @keyframes fc { 0%,100%{ transform:translateY(0px);} 50%{ transform:translateY(-4px);} }
+    </style>
+  </defs>
+
+  <rect width="1200" height="225" rx="18" fill="#05020c"/>
+
+  <!-- ================= CARD 1: PROFILE VIEWS & ADMIRERS ================= -->
+  <g class="floatCard1" transform="translate(18, 14)">
+    <rect width="276" height="196" rx="18" fill="url(#pvBg)" stroke="url(#pvBorderRose)" stroke-width="1.6"/>
+    <circle class="radarRing" cx="44" cy="42" r="10" fill="none" stroke="#ff2a85" stroke-width="2"/>
+    <circle cx="44" cy="42" r="6" fill="#ff2a85" filter="url(#pvGlow)"/>
+    <text x="64" y="46" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#fda4af">LIVE PROFILE VIEWS</text>
+
+    <text x="26" y="96" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="38" letter-spacing="1" fill="#ffe4e6" filter="url(#pvGlow)">5,420+</text>
+    <rect x="178" y="72" width="76" height="24" rx="12" fill="#2d0822" stroke="#39ff88" stroke-opacity="0.7"/>
+    <text x="216" y="88" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#39ff88">▲ +18% WK</text>
+
+    <!-- Mini Sparkline -->
+    <path d="M 26,152 C 55,148 75,132 105,136 C 135,140 155,118 185,122 C 215,126 230,104 252,98 L 252,162 L 26,162 Z" fill="url(#sparkArea)"/>
+    <path d="M 26,152 C 55,148 75,132 105,136 C 135,140 155,118 185,122 C 215,126 230,104 252,98" fill="none" stroke="#ff2a85" stroke-width="2.2" filter="url(#pvGlow)"/>
+    <circle cx="252" cy="98" r="4" fill="#fde047"/>
+
+    <text x="26" y="180" font-family="Consolas, monospace" font-size="11" fill="#fda4af">👀 Visitors, Recruiters &amp; Secret Admirers</text>
+  </g>
+
+  <!-- ================= CARD 2: FIRST IMPRESSION SCORE ================= -->
+  <g class="floatCard2" transform="translate(314, 14)">
+    <rect width="276" height="196" rx="18" fill="url(#pvBg)" stroke="url(#pvBorderGold)" stroke-width="1.6"/>
+    <circle cx="44" cy="42" r="6" fill="#fde047" filter="url(#pvGlow)"/>
+    <text x="64" y="46" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#fde047">AURA &amp; CHARISMA</text>
+
+    <text x="26" y="96" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="38" letter-spacing="1" fill="#fef08a" filter="url(#pvGlow)">99.9%</text>
+    <rect x="166" y="72" width="88" height="24" rx="12" fill="#2b1905" stroke="#fde047" stroke-opacity="0.7"/>
+    <text x="210" y="88" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#fde047">SSS+ RATED</text>
+
+    <rect x="26" y="122" width="224" height="8" rx="4" fill="#261033"/>
+    <rect x="26" y="122" width="222" height="8" rx="4" fill="url(#pvBorderGold)"/>
+
+    <text x="26" y="154" font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" fill="#ffe4e6">✦ Warning: Prolonged viewing of this</text>
+    <text x="26" y="174" font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" fill="#fda4af">profile may cause an instant crush. ❤️</text>
+  </g>
+
+  <!-- ================= CARD 3: FOLLOWER & NETWORK MAGNETISM ================= -->
+  <g class="floatCard3" transform="translate(610, 14)">
+    <rect width="276" height="196" rx="18" fill="url(#pvBg)" stroke="url(#pvBorderViolet)" stroke-width="1.6"/>
+    <circle cx="44" cy="42" r="6" fill="#e879f9" filter="url(#pvGlow)"/>
+    <text x="64" y="46" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#f5d0fe">GITHUB CIRCLE</text>
+
+    <text x="26" y="96" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="38" letter-spacing="1" fill="#f5d0fe" filter="url(#pvGlow)">45+ ★</text>
+    <rect x="166" y="72" width="88" height="24" rx="12" fill="#1e0b36" stroke="#e879f9" stroke-opacity="0.7"/>
+    <text x="210" y="88" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#e879f9">VERIFIED</text>
+
+    <text x="26" y="132" font-family="Consolas, monospace" font-size="12" fill="#cbd5e1">• Public &amp; Private Repos: <tspan fill="#38bdf8" font-weight="700">20+</tspan></text>
+    <text x="26" y="154" font-family="Consolas, monospace" font-size="12" fill="#cbd5e1">• Stars &amp; Forks Earned: <tspan fill="#fde047" font-weight="700">Growing</tspan></text>
+    <text x="26" y="176" font-family="Consolas, monospace" font-size="12" fill="#cbd5e1">• Collaboration Status: <tspan fill="#39ff88" font-weight="700">Open</tspan></text>
+  </g>
+
+  <!-- ================= CARD 4: LIVE HEARTBEAT & RESPONSE ================= -->
+  <g class="floatCard4" transform="translate(906, 14)">
+    <rect width="276" height="196" rx="18" fill="url(#pvBg)" stroke="url(#pvBorderGreen)" stroke-width="1.6"/>
+    <circle cx="44" cy="42" r="6" fill="#39ff88" filter="url(#pvGlow)">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="64" y="46" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#86efac">VIBE FREQUENCY</text>
+
+    <text x="26" y="96" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="34" letter-spacing="1" fill="#dcfce7" filter="url(#pvGlow)">ACTIVE</text>
+    <rect x="170" y="72" width="84" height="24" rx="12" fill="#06291b" stroke="#39ff88" stroke-opacity="0.7"/>
+    <text x="212" y="88" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#39ff88">24/7 FLOW</text>
+
+    <text x="26" y="132" font-family="Consolas, monospace" font-size="12" fill="#cbd5e1">• Timezone: <tspan fill="#38bdf8" font-weight="700">IST (UTC +5:30)</tspan></text>
+    <text x="26" y="154" font-family="Consolas, monospace" font-size="12" fill="#cbd5e1">• Peak Hours: <tspan fill="#fda4af" font-weight="700">11 PM – 3 AM 🌙</tspan></text>
+    <text x="26" y="176" font-family="Consolas, monospace" font-size="12" fill="#cbd5e1">• Coffee to Code: <tspan fill="#fde047" font-weight="700">100% Pure</tspan></text>
+  </g>
+</svg>

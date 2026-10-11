@@ -1,0 +1,85 @@
+<svg width="1200" height="230" viewBox="0 0 1200 230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c0627"/>
+      <stop offset="100%" stop-color="#07020f"/>
+    </linearGradient>
+    <linearGradient id="lsBorder1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a85"/>
+      <stop offset="50%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <linearGradient id="lsBorder2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ff2a85"/>
+    </linearGradient>
+    <filter id="lsGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="230" rx="18" fill="#05020c"/>
+
+  <!-- ================= LEFT CARD: SSS+ ARCHITECT STATS ================= -->
+  <g transform="translate(20, 15)">
+    <rect width="568" height="200" rx="20" fill="url(#lsBg)" stroke="url(#lsBorder1)" stroke-width="1.6"/>
+    <text x="32" y="40" font-family="Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#fda4af">✦ YOGESH MAHAWAR // ENGINEERING &amp; AESTHETIC STATS</text>
+
+    <g font-family="Consolas, monospace" font-size="13" fill="#e2e8f0">
+      <text x="32" y="76">⭐ Craft &amp; Design Precision:</text>
+      <text x="340" y="76" font-weight="700" fill="#fde047">Top 1% (Pixel-Perfect)</text>
+
+      <text x="32" y="106">🔥 Total Projects &amp; Systems:</text>
+      <text x="340" y="106" font-weight="700" fill="#ff2a85">20+ Production Repos</text>
+
+      <text x="32" y="136">⚡ UI Frame Rate &amp; Motion:</text>
+      <text x="340" y="136" font-weight="700" fill="#39ff88">60 FPS Smooth</text>
+
+      <text x="32" y="166">💎 Late-Night Flow State:</text>
+      <text x="340" y="166" font-weight="700" fill="#38bdf8">1,500+ Hours Logged</text>
+    </g>
+
+    <!-- Animated SSS+ Rank Ring -->
+    <g transform="translate(490, 108)">
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#2d0b38" stroke-width="8"/>
+      <circle cx="0" cy="0" r="54" fill="none" stroke="url(#lsBorder1)" stroke-width="8" stroke-dasharray="310 340" stroke-linecap="round" filter="url(#lsGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="4" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="24" fill="#ffe4e6" filter="url(#lsGlow)">SSS+</text>
+      <text x="0" y="22" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" letter-spacing="1.5" fill="#fde047">TIER</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT CARD: STREAK & DEDICATION ================= -->
+  <g transform="translate(612, 15)">
+    <rect width="568" height="200" rx="20" fill="url(#lsBg)" stroke="url(#lsBorder2)" stroke-width="1.6"/>
+    <text x="32" y="40" font-family="Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">✦ DEDICATION, STREAK &amp; CONSISTENCY</text>
+
+    <!-- 3 Columns Inside Right Card -->
+    <!-- Col 1 -->
+    <text x="104" y="106" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="34" fill="#ffe4e6" filter="url(#lsGlow)">1000%</text>
+    <text x="104" y="132" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#fda4af">EFFORT LEVEL</text>
+    <text x="104" y="152" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">In Code &amp; In Love</text>
+
+    <line x1="196" y1="66" x2="196" y2="170" stroke="#f472b6" stroke-opacity="0.25"/>
+
+    <!-- Col 2 (Center Flame Ring) -->
+    <g transform="translate(288, 108)">
+      <circle cx="0" cy="0" r="46" fill="none" stroke="url(#lsBorder1)" stroke-width="3" stroke-dasharray="14 6" filter="url(#lsGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="-12" text-anchor="middle" font-size="22">🔥</text>
+      <text x="0" y="14" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="22" fill="#fde047">DAILY</text>
+      <text x="0" y="30" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#ffe4e6">BUILDER</text>
+    </g>
+
+    <line x1="380" y1="66" x2="380" y2="170" stroke="#f472b6" stroke-opacity="0.25"/>
+
+    <!-- Col 3 -->
+    <text x="474" y="106" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="34" fill="#39ff88" filter="url(#lsGlow)">ZERO</text>
+    <text x="474" y="132" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#86efac">HALF-MEASURES</text>
+    <text x="474" y="152" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Built To Last Forever</text>
+  </g>
+</svg>
