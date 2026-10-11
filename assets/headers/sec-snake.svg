@@ -1,0 +1,49 @@
+<svg width="1200" height="108" viewBox="0 0 1200 108" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffe4e6"/>
+      <stop offset="25%" stop-color="#fda4af"/>
+      <stop offset="50%" stop-color="#fde047"/>
+      <stop offset="75%" stop-color="#ff2a85"/>
+      <stop offset="100%" stop-color="#f5d0fe"/>
+    </linearGradient>
+    <linearGradient id="wingLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a85" stop-opacity="0"/>
+      <stop offset="65%" stop-color="#ff2a85" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fde047" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="wingRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fde047" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ff2a85" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ff2a85" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="hdrGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .shimmer { animation: pulseG 3s ease-in-out infinite; }
+      @keyframes pulseG { 0%,100%{ opacity:0.92;} 50%{ opacity:1;} }
+    </style>
+  </defs>
+
+  <!-- Top Micro Pill -->
+  <rect x="420" y="6" width="360" height="24" rx="12" fill="#1b0423" stroke="#ff2a85" stroke-opacity="0.6" stroke-width="1.2"/>
+  <text x="600" y="22" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" letter-spacing="2.5" fill="#fde047">✦ AUTONOMOUS GRID · LIVE ✦</text>
+
+  <!-- Left & Right Wing Ornaments -->
+  <line x1="60" y1="58" x2="290" y2="58" stroke="url(#wingLeft)" stroke-width="1.8"/>
+  <circle cx="290" cy="58" r="3.5" fill="#fde047" filter="url(#hdrGlow)"/>
+  <text x="312" y="63" text-anchor="middle" font-size="14" fill="#ff2a85" filter="url(#hdrGlow)">✦</text>
+
+  <line x1="910" y1="58" x2="1140" y2="58" stroke="url(#wingRight)" stroke-width="1.8"/>
+  <circle cx="910" cy="58" r="3.5" fill="#fde047" filter="url(#hdrGlow)"/>
+  <text x="888" y="63" text-anchor="middle" font-size="14" fill="#ff2a85" filter="url(#hdrGlow)">✦</text>
+
+  <!-- Main Luxury Serif Title -->
+  <text x="600" y="67" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="900" font-size="33" letter-spacing="1.5" fill="#ff2a85" opacity="0.28" filter="url(#hdrGlow)">Neural Contribution Matrix</text>
+  <text class="shimmer" x="600" y="66" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="900" font-size="33" letter-spacing="1.5" fill="url(#titleGrad)" filter="url(#hdrGlow)">Neural Contribution Matrix</text>
+
+  <!-- Poetic Subtitle -->
+  <text x="600" y="95" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="15" letter-spacing="0.8" fill="#fbcfe8">Every glowing square is a late-night promise kept ✨</text>
+</svg>
